@@ -1,0 +1,448 @@
+@media (max-width: 767px) {
+    .viewResponsive {
+        width: calc(100vw - 30px);
+        height: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .viewResponsive {
+        width: 1110px;
+        height: 100%;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
+.responseImg {
+    width:100%;
+    height:auto;
+}
+.responseImg2 {
+    max-width:100%;
+    height: auto;
+}
+
+.scroll-horizontal > div {
+    position: relative !important;
+}
+.end2Button {
+    /* max-width: 50%; */
+    display: flex;
+    justify-content: end;
+    margin-top: 2rem;
+}
+.end3Button {
+    display: flex;
+    justify-content: end;
+    float:right;
+}
+.nopad {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+@font-face {
+    font-family: "GT-Haptik-Black-Trail";
+    src: local("GT-Haptik-Black-Trail"), url(../../font/GT-Haptik-Black-Trial.otf) format("opentype");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+    font-family: "GT-Walsheim-Pro-Regular-Trial";
+    src: local("GT-Walsheim-Pro-Regular-Trial"), url(../../font/GT-Walsheim-Pro-Regular-Trial.otf);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.issue_2 {
+    background-color: #ce5cf6;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+
+    top: 0;
+    left: 0;
+    /* width: 10%; */
+}
+
+.issue_2 :first-child {
+    color: white;
+    font-size: 2.5rem;
+    -webkit-text-stroke: 2px black;
+    font-family: GT-Haptik-Black-Trail;
+}
+.issue_2 :nth-child(2) {
+    color: white;
+    margin-top: -10%;
+    font-size: 3.5rem;
+    font-weight: 700;
+    -webkit-text-stroke: 3px black;
+    font-family: GT-Haptik-Black-Trail;
+    margin-bottom: 0%;
+}
+.plug_1_row{
+    /* position: relative; */
+    /* top:0%; */
+    overflow: hidden;
+    /* max-width: 200%; */
+}
+.plug_1 {
+    /* z-index: 3; */
+    margin-left: -0.5rem;
+    max-width: 110%;
+    /* overflow: hidden; */
+    /* margin-top: 0%; */
+    /* margin-left: 1.5rem; */
+    /* height:auto; */
+}
+.outlet_row{
+    position: relative;
+    bottom:16%;
+    margin-bottom: -5rem;
+}
+.outlet {
+    /* margin-top: -85%; */
+    max-width: 100%;
+    z-index: 2;
+    height:auto;
+}
+.plug_2_row{
+    /* position: relative; */
+    /* top:0%; */
+    overflow: hidden;
+}
+.plug_2 {
+    /* position: relative; */
+    /* top:0%; */
+    margin-left: -0.5rem;
+    max-width: 105%;
+    /* margin-left: 1rem; */
+    /* height:auto; */
+}
+/* .outlet_2_row{
+    position: relative;
+    top:-11%;
+}
+
+.outlet_2 {
+    max-width: 100%;
+    z-index: 2;
+    height:auto;
+} */
+
+
+
+.design_outlet {
+    background-color: #e08f61;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding-top: 0.75rem;
+    padding-bottom: 0.25rem;
+}
+.down_arrow{
+    display: none;
+}
+
+.design_outlet > p {
+    font-family: GT-Walsheim-Pro-Regular-Trial;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.clouds {
+    flex: auto;
+    max-width: 100%;
+    height:auto;
+
+}
+
+.smiley {
+    flex: auto;
+    max-width: 100%;
+    height:auto;
+
+}
+
+.arrows {
+    flex: auto;
+    max-width: 100%;
+    height:auto;
+
+}
+
+.text {
+    margin-left: 0rem;
+    padding: 0;
+    max-width: 100%;
+    flex: auto;
+    height:auto;
+
+}
+
+.whitebutton {
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    width: 95%;
+    height:auto;
+
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding-bottom: -1rem;
+}
+
+.whitebutton > p {
+    vertical-align: middle;
+    font-family: GT-Walsheim-Pro-Regular-Trial;
+    margin: 0.5rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.whitebutton > img {
+    margin-right: 0.5rem;
+    max-width: 10%;
+    height:auto;
+
+}
+
+.whitebutton:hover {
+    filter: invert(100%);
+    background-color: white;
+    text-decoration: none;
+}
+.whitebutton:hover > p {
+    filter: invert(100%);
+}
+.whitebutton:hover > img {
+    filter: invert(100%);
+}
+
+.blackbutton {
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 95%;
+    height:auto;
+
+    align-items: center;
+    justify-content: space-between;
+    /* margin-left: 1rem; */
+    /* margin-right: 1rem; */
+    margin-bottom: 1rem;
+    padding-bottom: -1rem;
+}
+
+.blackbutton > p {
+    vertical-align: middle;
+    font-family: GT-Walsheim-Pro-Regular-Trial;
+    margin: 0.5rem;
+    font-size: 1rem;
+    color: black;
+}
+
+.blackbutton > img {
+    filter: invert(100%);
+    margin-right: 0.5rem;
+    max-width: 10%;
+    height:auto;
+
+}
+.blackbutton:hover {
+    background-color: white;
+    filter: invert(100%);
+    text-decoration: none;
+}
+.blackbutton:hover > img {
+    filter: invert(100%);
+}
+
+.thought {
+    max-width: 100%;
+    height:auto;
+
+    flex: auto;
+}
+
+.mug {
+    max-width: 100%;
+    flex: auto;
+    height:auto;
+
+}
+
+.title {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    max-width: 200%;
+    flex: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #257a66;
+    height:auto;
+
+}
+.title > p {
+    align-self: center;
+    color: white;
+    font-size: 2.5rem;
+    -webkit-text-stroke: 2px black;
+    font-family: GT-Haptik-Black-Trail;
+    margin-bottom: 0%;
+}
+
+.horizontal_scroll {
+    border-top: solid;
+    border-width: 2px;
+    border-color: white;
+    z-index: 0;
+    margin-top: -0.25rem;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    position: relative;
+}
+/* .horizontal_scroll > :first-child {
+    margin-top: 1rem;
+    z-index: 1;
+    position: relative;
+}
+.horizontal_scroll > :first-child > img {
+    max-width: 100%;
+    z-index: 1;
+} */
+.justifyEnd {
+    justify-content:end;
+}
+@media (max-width: 767px) {
+    .down_arrow{
+        display: flex;
+        background-color: #e08f61;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+        justify-content: center;
+    }
+    .down_arrow>img{
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        -webkit-transform: rotate(90deg);
+    }
+    .issue_2 :first-child {
+        color: white;
+        font-size: 2rem;
+    }
+    .issue_2 :nth-child(2) {
+        color: white;
+        margin-top: -1rem;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .plug_1 {
+        /* display: flex; */
+        /* justify-content: end; */
+        max-width: 105%;
+        /* height:auto; */
+
+    }
+    .outlet {
+        display: flex;
+        justify-content: end;
+        /* max-width: 100%; */
+        height:auto;
+        /* margin-top: -75%; */
+        flex:auto;
+    }
+    .design_outlet {
+        width: 100%;
+        height:auto;
+
+    }
+    .design_outlet > p {
+        font-size: 1rem;
+    }
+    .smiley {
+        display: none;
+    }
+    .arrows {
+        display: none;
+    }
+    .text {
+        display: none;
+    }
+    .mug {
+        display: none;
+    }
+    .title {
+        display: none;
+    }
+    .clouds {
+        display: none;
+    }
+
+    .thought {
+        display: none;
+    }
+    /* .horizontal_scroll > :first-child {
+        /* position: relative;
+        left: 0%;
+    }
+    .horizontal_scroll > :first-child > img {
+        max-width: 100%;
+    } */
+    .whitebutton {
+        width: 80%;
+        height:auto;
+
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        padding-bottom: -1rem;
+        text-decoration: none;
+    }
+
+    .whitebutton > p {
+        vertical-align: middle;
+        font-family: GT-Walsheim-Pro-Regular-Trial;
+        margin: 0.5rem;
+        font-size: 1rem;
+        color: white;
+        text-decoration: none;
+    }
+
+    .whitebutton > img {
+        margin-right: 0.5rem;
+        max-width: 10%;
+        height:auto;
+
+    }
+    .blackbutton > img {
+        margin-right: 0.5rem;
+        max-width: 10%;
+        height:auto;
+
+    }
+    .plug_2{
+        /* display: flex; */
+        /* justify-content: end; */
+        max-width: 105%;
+        /* height:auto; */
+
+    }
+    .outlet_2{
+        /* display: flex; */
+        /* justify-content: end; */
+        max-width: 100%;
+        /* height:auto; */
+        /* margin-top: -50%; */
+        /* flex:auto; */
+    }
+}

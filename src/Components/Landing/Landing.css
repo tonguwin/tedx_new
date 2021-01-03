@@ -1,0 +1,10 @@
+.lightOpacity > div {
+    opacity: 0.5 !important;
+}
+.normalOpacity > div {
+    opacity: 1.0 !important;
+}
+.play {
+    max-width:80%;
+
+}

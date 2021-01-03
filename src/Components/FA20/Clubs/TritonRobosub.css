@@ -1,0 +1,53 @@
+.tr_text{
+    font-family:GT-Walsheim-Pro-Regular-Trial;
+    color:white;
+    margin: 0;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color:#257a66;
+}
+
+.ts_div{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: #e08f61;
+    display: flex;
+    justify-content: flex-start;
+}
+.ts_div>img{
+    width:30%;
+    height:auto;
+    
+}
+
+.ts_div_div>a{
+    margin-left: 1rem;
+    width: 125%;
+}
+
+.ts_img{
+    flex:auto;
+    max-width: 50%;
+    position: relative;
+    /* padding:1rem;
+    background-color: #ce5cf6; */
+    left: 50%;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: black; */
+}
+
+@media (max-width:767px){
+    .ts_img{
+        left:0%;
+        max-width: 100%;
+        
+    }
+    .ts_div_div>a{
+        width: 100%;
+    }
+}
