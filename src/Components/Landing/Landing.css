@@ -8,3 +8,12 @@
     max-width:80%;
 
 }
+
+.ideas {
+    font-family: Inter !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+    letter-spacing: 0.04em !important;
+    color: #f9f9f9 !important;
+}

@@ -249,58 +249,31 @@ class About extends Component {
             
             /*This div spans entire page*/
             <div style={{backgroundColor:"#121212",minHeight:"100vh"}}>
-                                <a href="https://docs.google.com/document/d/119WbGNpObYxrE8r0RxY6_ZAQRS1KrxjTXHA3HRX4QSA/edit" target="_blank">
-                    <img src={Recruit} className="Recruitment" />
-                </a>
+                                
             <Container className="d-flex flex-column justify-content-center align-self-center container-fluid my-auto">
 
             {/*FROM HERE IS THE MAIN PAGE*/}
                                 {/*When the HUE logo is clicked, mainPageVis is set to true and the main page content is shown*/}
           
                 <div className="page">
-                    {/*This is the top left logo that takes the color of the user*/}
-                    {/*This function call checks the returned color. If it is black, returns white instead*/}
-                    {/*Promo Video*/}
-                    {/*
-                    <Row style={{paddingTop:"4rem", paddingBottom:"4rem"}}>
-                        <Col id="video">
-                            <div className="wrapper">
-                        <ReactPlayer className="myPlayer" width="100%" height="100%" url={require(`../../img/promo.mp4`)} playIcon={<img src={require(`../../img/playIcon.png`)}></img>} controls={true} style={{opacity:this.state.opacity}} onPlay={this.setOpacity} playing light={require(`../../img/thumbnail.png`)} ></ReactPlayer>
-                        </div>
-                        </Col>
-                    </Row>*/}
-                    {/*About Section*/}
+                    <Row>
+                        <p className="about">
+                            About Us
+                        </p>
+                    </Row>
                     <Row style={{paddingTop:"4rem"}} id="about">
                         <Col>
-                        <p className="huearewepre">HUE are we?</p>
+                        <p className="huearewepre">What is TEDxUCSD?</p>
                         </Col>
                     </Row>
                     <Row style={{paddingBottom:"4rem"}}>
                         <Col>
-                        <p className="huearewe">Brought together by creative curiosity, we are a multidisciplinary group of UCSD students working to craft a platform that showcases different experiences and perspectives in design. 
-                            HUE aims to use different mediums to express the ubiquity and ambiguity of design. We also value community and are always looking for exciting designers to feature in our digital zine.
+                        <p className="huearewe">TEDxUCSD’s mission is to bring together leading thinkers and doers to share ideas that matter in and to any discipline - technology, entertainment, design, science, humanities, business, development, and much more. Through a local forum, we hope to inspire people to change their lives, their futures, and ultimately their world.
                         </p>
                         </Col>
                     </Row>
 
-                    {/*Social media*/}
-{/*                     <Row style={{paddingTop:"2rem", paddingBottom:"8rem"}}>
-                        <Col className="mx-auto">
-                        </Col>
-                        <Col className="mx-auto justify-content-center align-items-center d-flex">
-                            <a href="https://www.facebook.com/HUEcollectives/" target="_blank">
-                                <img src={require(`../../img/facebookwhite.png`)} style={{paddingRight:"2.5rem"}}></img>
-                            </a>
-                            <a href="https://www.instagram.com/hue.collective/" target="_blank">
-                                <img src={require(`../../img/instagramwhite.png`)} style={{paddingRight:"2.5rem"}}></img>
-                            </a>
-                            <a href="https://www.linkedin.com/company/huecollective/" target="_blank">
-                                <img src={require(`../../img/linkedINwhite.png`)}></img>
-                            </a>
-                        </Col>
-                        <Col className="mx-auto">
-                        </Col>
-                    </Row> */}
+                   
                     
                     <div style={{paddingBottom:"8rem"}}>
                     <img src={pageBreak} style={{maxWidth:'100%'}}/>
@@ -379,7 +352,7 @@ class About extends Component {
                             }}
                             className="announcement"
                         >
-                            <Marquee speed="0.08" direction="right">Welcome to HUE Collective | Welcome to HUE Collective | Welcome to HUE Collective | Welcome to HUE Collective | Welcome to HUE Collective | Welcome to HUE Collective |</Marquee>
+                            
                         </div>
 
 

@@ -16,6 +16,12 @@ import {
     CSSTransition,
     TransitionGroup,
 } from 'react-transition-group';
+
+/* This page creates the video landing area at the beginning! We could easily remove it from home and remove this bought I thought keeping it would make for 
+an interesting file to pull from and take inspo from... scroll down to past the return part which lets you play w html/css */
+
+
+
 class Landing extends Component {
     constructor(props) {
         super(props);
@@ -97,10 +103,28 @@ class Landing extends Component {
         this.props.setTheme('transparent');
     };
     render() {
+        
         return (
             <>
-                <div className="responseVid" style={{ width: ' 100%', height: '100%' }}>
-                    <TestComponent
+            <div className="responseVid" style={{ width: ' 100%', height: '100%' }}>
+                
+                <Container>
+                    <nav onMouseEnter={this.handleControlsOpen} onMouseLeave={this.handleControlsClose} className="promoLayer">
+                        <p className="ideas">Ideas Worth Spreading</p>
+
+                    </nav>
+                </Container>
+            </div>
+
+            </>
+        )
+    }
+}
+export default connect(null, { setTheme })(Landing);
+
+// Test Component creates the video window and that transition group creates the button 
+
+/* <TestComponent
                         ref={p => this.player = p}
                         containerWidth={this.state.windowWidth}
                         containerHeight={this.state.windowHeight}
@@ -118,12 +142,9 @@ class Landing extends Component {
                         loop={false}
                         onEnd={this.toggleMute}
                         className={this.state.isPlaying ? (this.state.showControls ? 'lightOpacity' : 'normalOpacity') : 'lightOpacity'}
-                    />
-<Container>
-                    <nav onMouseEnter={this.handleControlsOpen} onMouseLeave={this.handleControlsClose} className="promoLayer">
-                        <p className={"karla promo " + (!this.state.isPlaying ? 'show' : 'hidden')}>Expressing ubiquity and ambiguity through different perspectives in design.</p>
+                    /> */
 
-                        <TransitionGroup component={null}>
+/* <TransitionGroup component={null}>
                             <CSSTransition key={this.state.hover} timeout={5000} classNames="tester">
                                 <button onClick={this.toggleTest} onMouseEnter={this.handleHover} onMouseLeave={this.handleHover} className="playInterviewButton">
                                     <img src={(!this.state.isPlaying ? (this.state.hover ? playVideoHover : playVideo) :
@@ -131,14 +152,4 @@ class Landing extends Component {
                                         className={this.state.isPlaying ? (this.state.showControls ? 'visibleButton play' : 'invisibleButton play') : 'visibleButton play'} />
                                 </button>
                             </CSSTransition>
-                        </TransitionGroup>
-
-                    </nav>
-                    </Container>
-                </div>
-
-            </>
-        )
-    }
-}
-export default connect(null, { setTheme })(Landing);
+                        </TransitionGroup> */

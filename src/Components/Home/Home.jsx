@@ -79,18 +79,21 @@ class Home extends Component {
     render() {
         return (
             <>
-                <a href="https://docs.google.com/document/d/119WbGNpObYxrE8r0RxY6_ZAQRS1KrxjTXHA3HRX4QSA/edit" target="_blank">
-                    <img src={Recruit} className="Recruitment" />
-                </a>
+                
                 <div id="test" className="mainLand">
                     <Landing />
                 </div>
                 <Container>
                     <div className="postVid" id="issueHome">
                         <p className="huearewepre" >What is TEDxUCSD?</p>
-                        <p className="huearewe">We are always looking for exciting designers to feature in our digital zines.</p>
+                        <p className="huearewe">TEDxUCSD’s mission is to bring together leading thinkers and doers to share ideas that matter in and to any discipline - technology, entertainment, design, science, humanities, business, development, and much more. Through a local forum, we hope to inspire people to change their lives, their futures, and ultimately their world.</p>
                     </div>
-                   
+                </Container>
+                <Container>
+                    <div className="postVid" id="issueHome">
+                        <p className="huearewepre" >Learn more</p>
+                        <p className="huearewe">two videos, some descriptions blah blah</p>
+                    </div>
                 </Container>
                 <NavBar className="myNav secondaryNav">
                     <div

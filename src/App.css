@@ -211,10 +211,13 @@ body {
   border: 0.5px solid #ffffff;
 }
 .huearewepre {
-  font-family: VT323 !important;
+  font-family: Inter !important;
+  font-style: normal;
+  font-weight: 600;
   line-height: 106% !important;
   letter-spacing: 0.04em !important;
   color: #f9f9f9 !important;
+  text-align: center;
 }
 .huearewe {
   font-family: Karla !important;
