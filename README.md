@@ -11,7 +11,7 @@ This is the website that homes the future TEDxUCSD website. This project was boo
 7. Start coding with the folder open in VS Code! 
 
 ## List of things you can do! 
-If you choose to start doing something, please let the webDev Slack channel know which task specifically you're doing! Once you finish the task, please let the channel know as well with a funny emoji and I will be sure to update the README.md file so that any updates can be crossed off here :)) The tasks are ordered from easiest to hardest in a top down perspective. Thus a task like About-1 is super easy, while a task like Home/Landing-3 would be much harder. I suggest starting on tasks near the top of the list! 
+If you choose to start doing something, please let the webDev Slack channel know which task specifically you're doing! Once you finish the task, please let the channel know as well with a funny emoji and I will be sure to update the README.md file so that any updates can be crossed off here. When claiming or addressing a task, call it by name and number so for example "Blog-1" would be referring to the first blog task. The tasks are ordered from easiest to hardest in a top down perspective. Thus a task like About-1 is super easy, while a task like Home/Landing-3 would be much harder. I suggest starting on tasks near the top of the list! 
 
 Please utilize/reference the Figma design while coding! https://www.figma.com/file/kSJ57eXhmbqhTROFbYXyn8/TEDxUCSD-Webpage?node-id=131%3A98 
 
