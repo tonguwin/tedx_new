@@ -11,20 +11,28 @@ This is the website that homes the future TEDxUCSD website. This project was boo
 7. Start coding with the folder open in VS Code! 
 
 ## List of things you can do! 
-If you choose to start doing something, please let the webDev Slack channel know which task specifically you're doing! Once you finish the task, please let the channel know as well with a funny emoji and I will be sure to update the README.md file so that any updates can be crossed off here :)) 
+If you choose to start doing something, please let the webDev Slack channel know which task specifically you're doing! Once you finish the task, please let the channel know as well with a funny emoji and I will be sure to update the README.md file so that any updates can be crossed off here :)) The tasks are ordered from easiest to hardest in a top down perspective. Thus a task like About-1 is super easy, while a task like Home/Landing-3 would be much harder. I suggest starting on tasks near the top of the list! 
 
 Please utilize/reference the Figma design while coding! https://www.figma.com/file/kSJ57eXhmbqhTROFbYXyn8/TEDxUCSD-Webpage?node-id=131%3A98 
 
 ### About 
 1. (NOT CODE) start to gather a list of each member and create a google forms to gather bios/fun facts/links 
 2. Make the 'TEDx' in the 'What is TEDxUCSD?' red. This can definitely be googled/stackoverflowed and done easily 
-3. Once data is gathered, input data in the data.json file! 
+3. Once data is gathered, input/replace data in the data.json file! 
 
 ### Blog
 1. Create Blog folder in Components - one jsx and one css file  
-2. Routing name set and place on NavBar 
+2. File imported, routing name set in App2.js and place on NavBar 
 3. Create a new folder under the blog folder, for blog post files to be (will be empty for now) 
-4. Set up the divs/skeleton for this for content to be entered 
+4. Set up the divs/skeleton for this for content to be entered (Todd will handle this) 
+
+### Events 
+1. Create Events folder in Components - one jsx and one css file   
+2. File imported, routing name set in App2.js and place on NavBar
+3. Create a new folder under the blog folder, for blog post files to be (will be empty for now) 
+4. Top title that simply reads 'Events' at the top, equipped with the same CSS as the 'About Us' title on the About page
+5. Create a skeleton for the main events page
+6. Create a skeleton for individual event pages
 
 ### Sponsors 
 1. Top title that simply reads 'Sponsors' at the top, equipped with the same CSS as the 'About Us' title on the About page 
@@ -33,14 +41,9 @@ Please utilize/reference the Figma design while coding! https://www.figma.com/fi
 4. Figure out how to add data into the cards for sponsors that differs from the About Us page
 4. Play around with sizing for these boxes, with bigger boxes showing our higher paying sponsors  
 
-### Events 
-1. Create Events folder in Components - one jsx and one css file   
-2. Routing name set and place on NavBar
-3. Top title that simply reads 'Events' at the top, equipped with the same CSS as the 'About Us' title on the About page
-
 ### Studio 
 1. Create Studio folder in Components - one jsx and one css file   
-2. Routing name set and place on NavBar
+2. File imported, routing name set in App2.js and place on NavBar
 3. Top title that simply reads 'Studio' at the top, equipped with the same CSS as the 'About Us' title on the About page
 4. Find out how to integrate this API into the page (https://github.com/codrops/MorphingBackgroundShapes) 
 
@@ -50,8 +53,9 @@ Please utilize/reference the Figma design while coding! https://www.figma.com/fi
 3. Play around/add fun random boxes that are clickable 
 
 ### NavBar 
-1. Make the NavBar completely white and navbar font black 
-2. Change hamburger button from appearing in the middle to appearing in a screen on the right 
+1. Change the HUE logo on Navbar to the TEDxUCSD logo!  
+2. Make the NavBar completely white and navbar font black 
+3. Change hamburger button from appearing in the middle to appearing in a screen on the right 
 
 ### General
 1. Figure out how to take the base grid background that lies on each page! 
