@@ -23,8 +23,9 @@ Please utilize/reference the Figma design while coding! https://www.figma.com/fi
 ### Blog
 1. Create Blog folder in Components - one jsx and one css file  
 2. File imported, routing name set in App2.js and place on NavBar 
-3. Create a new folder under the blog folder, for blog post files to be (will be empty for now) 
-4. Set up the divs/skeleton for this for content to be entered (Todd will handle this) 
+3. Top title that simply reads 'Events' at the top, equipped with the same CSS as the 'About Us' title on the About page
+4. Create a new folder under the blog folder, for blog post files to be (will be empty for now) 
+5. Set up the divs/skeleton for this for content to be entered (Todd will handle this) 
 
 ### Events 
 1. Create Events folder in Components - one jsx and one css file   
@@ -71,3 +72,4 @@ Please utilize/reference the Figma design while coding! https://www.figma.com/fi
 5. If you're ever get too overwhelmed, anxious about it, maybe even have a smoll headache - feel free to just STOP! This is supposed to be just a learning experience for y'all and no stress should be put into it! 
 6. If you're having trouble with a merge or maybe pull, Slack the webDev channel with a screenshot and we'll all try to help out or hop on a call. 
 7. Lol, please ignore any extra random folders that you may see. I tried to delete as much as I could but I got to a point where I was confused why deleting won't start up the page... 
+8. When starting a new page feel free to copy content from another jsx file so that it just initially launches!
