@@ -58,9 +58,10 @@ Please utilize/reference the Figma design while coding! https://www.figma.com/fi
 3. Change hamburger button from appearing in the middle to appearing in a screen on the right 
 
 ### General
-1. Figure out how to take the base grid background that lies on each page! 
-2. Take out Marquee moving train at the bottom of each page. Simply need to delete it the marquee tag (currently leaving this here bc it's fun to look at lol)
-3. Create a footer that contains IG, FB, etc and push it to each page 
+1. Change highlighting color to a pretty TEDx red instead of classic blue (google/stackoverflow how to change highlighting color) 
+2. Figure out how to take the base grid background that lies on each page! 
+3. Take out Marquee moving train at the bottom of each page. Simply need to delete it the marquee tag (currently leaving this here bc it's fun to look at lol)
+4. Create a footer that contains IG, FB, etc and push it to each page 
 
 ## Tips + Advice 
 1. Try to use other CSS files and JS files to gather inspiration
