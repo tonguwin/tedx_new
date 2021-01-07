@@ -103,7 +103,7 @@ class Home extends Component {
                         }}
                         className="announcement"
                     >
-                        <Marquee speed="0.08" direction="right">Welcome to TEDxUCSD | "Ideas Worth Spreading" | Welcome to TEDxUCSD | "Ideas Worth Spreading" | Welcome to TEDxUCSD | "Ideas Worth Spreading" |</Marquee>
+                        {/* <Marquee speed="0.08" direction="right">Welcome to TEDxUCSD | "Ideas Worth Spreading" | Welcome to TEDxUCSD | "Ideas Worth Spreading" | Welcome to TEDxUCSD | "Ideas Worth Spreading" |</Marquee> */}
                     </div>
 
 
