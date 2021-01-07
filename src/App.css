@@ -68,10 +68,11 @@ a {
 }
 body {
   background-color: #121212 !important;
-  background-image: linear-gradient(to right, #1f1f1f 1px, transparent 1px),
-    linear-gradient(to bottom, #1f1f1f 1px, transparent 1px);
   opacity: 1;
   background-size: 200px 100px;
+}
+::selection {
+  background-color: #fd6661;
 }
 @font-face {
   font-family: "HelveticaLight";
