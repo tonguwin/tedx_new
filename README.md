@@ -54,8 +54,8 @@ Please utilize/reference the Figma design while coding! https://www.figma.com/fi
 3. Play around/add fun random boxes that are clickable 
 
 ### NavBar 
-1. Change the HUE logo on Navbar to the TEDxUCSD logo!  
-2. Make the NavBar completely white and navbar font black 
+1. DONE: Change the HUE logo on Navbar to the TEDxUCSD logo!  
+2. DONE: Make the NavBar completely white and navbar font black 
 3. Change hamburger button from appearing in the middle to appearing in a screen on the right 
 
 ### General

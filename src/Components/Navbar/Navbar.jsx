@@ -36,31 +36,23 @@ const Navbar = ({ color, theme }) => {
         <div>
             {redirect && <Redirect to={redirect} />}
 
-            <NavBar className={myTheme === "white" ? 'myNav2' : (myTheme === "transparent") ? 'myNav3' : (myTheme === "hidden") ? 'myNav4' : 'myNav'} expand="lg">
+            <NavBar className={myTheme === "black" ? 'myNav' : 'myNav'} expand="lg">
                 <NavBar.Brand className="navBrand" onClick={() => redirectTo('/')}>
-                    {/* <div className="overlay">
-                        <div className="overlay-2">
-                            <p className="secondaryLogo" style={{ color: myColor }}>HUE</p>
-                        </div>
-                        <div class="overlay-1">
-                            <p className="mainLogo" style={{ color: myColor }}>HUE</p>
-                        </div>
-                    </div> */}
-                    {myTheme === "white" ? <img src={BlackLogo} className="imgTest" /> : <img src={WhiteLogo} className="imgTest" />}
+                    {myTheme === "black" ? <img src={BlackLogo} className="imgTest" /> : <img src={BlackLogo} className="imgTest" />}
 
                 </NavBar.Brand>
                 <NavBar.Toggle aria-controls="responsive-navbar-nav" className={myTheme === "white" ? "navbar-light" : "navbar-dark"}/>
                 <NavBar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link className={myTheme === "white" ? 'navLinks2' : 'navLinks'} onClick={() => redirectTo('/about')}>
+                        <Nav.Link className={myTheme === "black" ? 'navLinks' : 'navLinks'} onClick={() => redirectTo('/about')}>
                                 About
                         </Nav.Link>
                         
-                        <Nav.Link className={myTheme === "white" ? 'navLinks2' : 'navLinks'} onClick={() => redirectTo('/event')}>
+                        <Nav.Link className={myTheme === "black" ? 'navLinks' : 'navLinks'} onClick={() => redirectTo('/event')}>
                                 Events
                         </Nav.Link>
 
-                        <Nav.Link className={myTheme === "white" ? 'navLinks2' : 'navLinks'} onClick={() => redirectTo('/sponsor')}>
+                        <Nav.Link className={myTheme === "black" ? 'navLinks' : 'navLinks'} onClick={() => redirectTo('/sponsor')}>
                                 Sponsors
                         </Nav.Link>
 
