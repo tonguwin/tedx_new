@@ -47,7 +47,7 @@ const Navbar = ({ color, theme }) => {
                         <Nav.Link className={myTheme === "black" ? 'navLinks' : 'navLinks'} onClick={() => redirectTo('/about')}>
                                 About
                         </Nav.Link>
-                        
+        
                         <Nav.Link className={myTheme === "black" ? 'navLinks' : 'navLinks'} onClick={() => redirectTo('/event')}>
                                 Events
                         </Nav.Link>

@@ -23,7 +23,6 @@
 .myNav2 {
   background-color: #121212;
   z-index: 999;
-
 }
 .navBrand {
   margin-left: 2rem;
@@ -31,21 +30,23 @@
 }
 .navLinks {
   color: black !important;
-  margin-left: 1rem !important;
+  margin-left: 2rem !important;
   font-size: 1.5rem !important;
-  margin-right: 2rem !important;
+  margin-right: 1rem !important;
+  text-align: right;
 }
 .navLinks2 {
-  color: #fcfcfc !important;
-  margin-left: 1rem !important;
+  color: white !important;
+  margin-left: 2rem !important;
   font-size: 1.5rem !important;
-  margin-right: 2rem !important;
+  margin-right: 1rem !important;
+  text-align: right;
 }
 .nav-link:hover {
   text-decoration: underline !important;
 }
 .navbar-toggler {
-  background-color: #fcfcfc !important;
+  background-color: black !important;
 }
 .navbar-collapse > div > div {
   margin: 2rem !important;
