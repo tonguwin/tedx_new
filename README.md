@@ -56,7 +56,7 @@ Please utilize/reference the Figma design while coding! https://www.figma.com/fi
 ### NavBar 
 1. DONE: Change the HUE logo on Navbar to the TEDxUCSD logo!  
 2. DONE: Make the NavBar completely white and navbar font black 
-3. Change text alignment and change toggle icon color. 
+3. DONE: Change text alignment and change toggle icon color. 
 
 ### General
 1. DONE: Change highlighting color to a pretty TEDx red instead of classic blue (google/stackoverflow how to change highlighting color) 
