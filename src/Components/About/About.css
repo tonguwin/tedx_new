@@ -1,13 +1,14 @@
 .about {
     
-    font-family: Inter;
+    font-family: HelveticaBold;
+    margin-top: 2rem;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 500;
     font-size: 150px;
     line-height: 182px;
     /* identical to box height */
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: white;
-    color: #121212;
+    color: transparent;
     
 }

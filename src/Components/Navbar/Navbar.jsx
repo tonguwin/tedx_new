@@ -41,7 +41,7 @@ const Navbar = ({ color, theme }) => {
                     {myTheme === "black" ? <img src={BlackLogo} className="imgTest" /> : <img src={BlackLogo} className="imgTest" />}
 
                 </NavBar.Brand>
-                <NavBar.Toggle aria-controls="responsive-navbar-nav" className={myTheme === "white" ? "navbar-light" : "navbar-dark"}/>
+                <NavBar.Toggle aria-controls="responsive-navbar-nav" className={myTheme === "black" ? "navbar-light" : "navbar-light"}/>
                 <NavBar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
                         <Nav.Link className={myTheme === "black" ? 'navLinks' : 'navLinks'} onClick={() => redirectTo('/about')}>

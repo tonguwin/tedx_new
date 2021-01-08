@@ -1,0 +1,13 @@
+.events {
+    
+    font-family: HelveticaBold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 150px;
+    line-height: 182px;
+    /* identical to box height */
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+    color: transparent;
+    
+}

@@ -17,13 +17,13 @@ Please utilize/reference the Figma design while coding! https://www.figma.com/fi
 
 ### About 
 1. (NOT CODE) start to gather a list of each member and create a google forms to gather bios/fun facts/links 
-2. Make the 'TEDx' in the 'What is TEDxUCSD?' red. This can definitely be googled/stackoverflowed and done easily 
+2. DONE: Make the 'TEDx' in the 'What is TEDxUCSD?' red. This can definitely be googled/stackoverflowed and done easily 
 3. Once data is gathered, input/replace data in the data.json file! 
 
 ### Blog
 1. Create Blog folder in Components - one jsx and one css file  
 2. File imported, routing name set in App2.js and place on NavBar 
-3. Top title that simply reads 'Events' at the top, equipped with the same CSS as the 'About Us' title on the About page
+3. Top title that simply reads 'Blogs' at the top, equipped with the same CSS as the 'About Us' title on the About page
 4. Create a new folder under the blog folder, for blog post files to be (will be empty for now) 
 5. Set up the divs/skeleton for this for content to be entered (Todd will handle this) 
 
@@ -31,7 +31,7 @@ Please utilize/reference the Figma design while coding! https://www.figma.com/fi
 1. Create Events folder in Components - one jsx and one css file   
 2. File imported, routing name set in App2.js and place on NavBar
 3. Create a new folder under the blog folder, for blog post files to be (will be empty for now) 
-4. Top title that simply reads 'Events' at the top, equipped with the same CSS as the 'About Us' title on the About page
+4. DONE: Top title that simply reads 'Events' at the top, equipped with the same CSS as the 'About Us' title on the About page
 5. Create a skeleton for the main events page
 6. Create a skeleton for individual event pages
 
@@ -56,7 +56,7 @@ Please utilize/reference the Figma design while coding! https://www.figma.com/fi
 ### NavBar 
 1. DONE: Change the HUE logo on Navbar to the TEDxUCSD logo!  
 2. DONE: Make the NavBar completely white and navbar font black 
-3. Change hamburger button from appearing in the middle to appearing in a screen on the right 
+3. Change text alignment and change toggle icon color. 
 
 ### General
 1. DONE: Change highlighting color to a pretty TEDx red instead of classic blue (google/stackoverflow how to change highlighting color) 
