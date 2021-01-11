@@ -3,6 +3,7 @@ import './App.css';
 import FA20 from './Components/FA20/FA20';
 
 
+// Heyo, remember to import the jsx files that you want routing to be named after ~ 
 import About from './Components/About/About' ;
 import Event from './Components/Event/Event';
 import Home from './Components/Home/Home';
@@ -25,6 +26,12 @@ import { withRouter } from 'react-router-dom';
 import './animation.css';
 import Recruit from './img/Issue2/staticRecruit.png';
 
+/* In the function below, follow similar ones like the About page and 
+replicate it with your import component instead and name it 
+
+After importing and naming the routing, you want to make sure it's accessible 
+but putting it on the NavBar :) 
+*/
 
 const App = ({ location }) => {
   const currentKey = location.pathname.split('/')[1] || '/'

@@ -1,3 +1,5 @@
+// Ayo! Are you here to put something on the NavBar? Perfecto, check below
+
 import React, { Component, useState, useEffect } from 'react';
 import NavBar from 'react-bootstrap/Navbar';
 import { NavDropdown, Nav, Image, DropdownButton } from 'react-bootstrap';
@@ -11,6 +13,10 @@ import { HashLink } from 'react-router-hash-link';
 const mapStateToProps = (state) => {
     return { color: state.color, theme: state.theme };
 }
+
+/* The function below is our navbar, to add to it, simply copy + pasta
+a NavLink and change some of the inputs like the actual HTML name
+and where you want the navbar to reDirect to which is the routing name */
 const Navbar = ({ color, theme }) => {
     const [redirect, redirectTo] = useState(null);
     const [myColor, setColor] = useState("white");
