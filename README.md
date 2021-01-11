@@ -36,7 +36,7 @@ Please utilize/reference the Figma design while coding! https://www.figma.com/fi
 6. Create a skeleton for individual event pages
 
 ### Sponsors 
-1. Top title that simply reads 'Sponsors' at the top, equipped with the same CSS as the 'About Us' title on the About page 
+1. DONE: Top title that simply reads 'Sponsors' at the top, equipped with the same CSS as the 'About Us' title on the About page 
 2. 'Current sponsors' implemented after the title of the page 
 3. Title cards to represent sponsors, can be pulled from About Us page 
 4. Figure out how to add data into the cards for sponsors that differs from the About Us page
