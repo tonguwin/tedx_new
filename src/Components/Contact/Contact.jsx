@@ -5,7 +5,6 @@ import Draggable from 'react-draggable';
 import { Container, Row, Col } from 'react-bootstrap';
 import contact from '../../img/SP20/contact.jpg';
 import pageBreak from '../../img/pagebreak.png';
-import Marquee from 'react-double-marquee';
 import NavBar from 'react-bootstrap/Navbar';
 import Recruit from '../../img/Issue2/JOIN.gif';
 
@@ -21,11 +20,9 @@ class Contact extends Component {
                 </a>
             <Container>
                 <Row>
-                    <Col>
-                        <div className="margin1 header">
-                            <p>connect with us</p>
-                        </div>
-                    </Col>
+                    <p className="contact">
+                        Sponsors
+                    </p>
                 </Row>
                 <Row>
                     <Col>
