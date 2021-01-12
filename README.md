@@ -40,6 +40,22 @@ Please utilize/reference the Figma design while coding! https://www.figma.com/fi
 3. Create a skeleton for the main events page (how rows/columns will be organized)
 4. Create a skeleton for individual event pages (how rows/columns will be organized)
 
+(While doing the following three sections, please refer to the figma for reference, they should all be pretty similar so once you do one, the rest should be a piece of cake) 
+#### Main Conference 
+1. Add picture into given column, play around with CSS to make a neat box 
+2. Add general description (some CSS will come to work here as well, feel free to make a new CSS for general descriptions under Events.css)  
+3. Create two separate buttons under general description (please refer to Figma) 
+
+#### Salon
+The following directions will be for both our upcoming salon, "Your Gravity" 
+1. Add picture into given column, play around with CSS to make a neat box 
+2. Add general description (some CSS will come to work here as well, feel free to make a new CSS for general descriptions under Events.css)  
+
+#### Info-Sesh
+The following directions will be for our last info session - "Shift, Enter" 
+1. Add picture into given column, play around with CSS to make a neat box 
+2. Add general description (some CSS will come to work here as well, feel free to make a new CSS for general descriptions under Events.css)  
+
 ### Sponsors
 
 1. DONE: Top title that simply reads 'Sponsors' at the top, equipped with the same CSS as the 'About Us' title on the About page
