@@ -12,3 +12,15 @@
     color: transparent;
     
 }
+
+
+.meet {
+    font-family: HelveticaBold !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 182px !important;
+    letter-spacing: 0.04em !important;
+    color: #f9f9f9 !important;
+    text-align: left;
+  }

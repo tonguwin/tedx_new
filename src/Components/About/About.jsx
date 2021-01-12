@@ -275,14 +275,12 @@ class About extends Component {
 
                    
                     
-                    <div style={{paddingBottom:"8rem"}}>
-                    <img src={pageBreak} style={{maxWidth:'100%'}}/>
-                    </div>
+                
 
                     {/*Meet the Team*/}
                     <Row id="team">
                         <Col>
-                        <p className="huearewepre">meet the team</p>
+                        <p className="meet">Meet the Team</p>
                         </Col>
                     </Row>
 

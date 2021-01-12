@@ -36,6 +36,7 @@ Please utilize/reference the Figma design while coding! https://www.figma.com/fi
 
 1. Create a new folder under the Events folder, for individual events to be (will be empty for now)
 2. DONE: Top title that simply reads 'Events' at the top, equipped with the same CSS as the 'About Us' title on the About page
+3. Fix CSS for the 2020 in the circular box 
 3. Create a skeleton for the main events page (how rows/columns will be organized)
 4. Create a skeleton for individual event pages (how rows/columns will be organized)
 
