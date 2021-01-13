@@ -83,8 +83,7 @@ The following directions will be for our last info session - "Shift, Enter"
 1. DONE: Change the HUE logo on Navbar to the TEDxUCSD logo!
 2. DONE: Make the NavBar completely white and navbar font black
 3. DONE: Change text alignment and change toggle icon color.
-4. Fix the responsivity of the toggle icon for tablet sizes.
-5. Fix the button span of the home/logo button
+4. Fix the responsivity of the toggle icon for tablet sizes/Fix the button span of the home/logo button
 
 ### General
 

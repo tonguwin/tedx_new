@@ -11,7 +11,7 @@
 }
 @media (min-width:768px) {
   .imgTest {
-    max-width:25%;
+    max-width: 25%;
     margin-top:1.5rem;
     margin-bottom:1.5rem;
   }
@@ -58,4 +58,5 @@
 .navbar-light {
   /* background-color: transparent !important; */
   border-color:  #121212 !important;
+  /* border-color: transparent !important; */
 }

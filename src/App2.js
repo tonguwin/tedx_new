@@ -18,6 +18,7 @@ import { Provider, connect } from 'react-redux';
 import { Dispatch } from 'react-redux';
 import rootStore from './redux/stores';
 import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer';
 import {
   CSSTransition,
   TransitionGroup,
@@ -60,6 +61,7 @@ const App = ({ location }) => {
             </CSSTransition>
           </TransitionGroup>
         </Switch>
+        <Footer /> 
       </Route>
     </Switch>
   )
