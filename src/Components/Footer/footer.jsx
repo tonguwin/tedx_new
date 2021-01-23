@@ -8,6 +8,9 @@ import Linkedin from '../../img/linkedINwhite.png';
 import Email from '../../img/email.png';
 
 
+// Ayo, if it doesn't start up -- just make sure this file's name starts w a capital F 
+
+
 class Footer extends Component {
     constructor(props) {
         super(props);
