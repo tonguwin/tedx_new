@@ -301,7 +301,7 @@ class Event extends Component {
                         </Row>
                         <Row style={{paddingTop:"2rem"}}>
                             <Col>
-                                <img src={Constellate} className="image"/>
+                                <img src={Constellate} className="image zoom"/>
                             </Col>
                             <Col style={{paddingLeft:"4rem"}}>
                                 <Row>
@@ -326,7 +326,7 @@ class Event extends Component {
                         
                         <Row style={{paddingTop:"2rem"}}>
                             <Col>
-                                <img src={YourGravity} className="image"/>
+                                <img src={YourGravity} className="image zoom"/>
                             </Col>
                             <Col style={{paddingLeft:"4rem"}}>
                                 <Row>
@@ -343,7 +343,7 @@ class Event extends Component {
                         
                         <Row style={{paddingTop:"6rem"}}>
                             <Col>
-                                <img src={ShiftEnter} className="image"/>
+                                <img src={ShiftEnter} className="image zoom"/>
                             </Col>
                             <Col style={{paddingLeft:"4rem"}}>
                                 <Row>
