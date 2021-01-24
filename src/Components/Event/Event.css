@@ -32,15 +32,26 @@
 
 .twenty-one {
     font-family: HelveticaBold !important;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 75px;
     color: #151515 !important;
     letter-spacing: 0.04em !important;
 
 
-    padding: 15px 15px 100px;
+    padding: 0px 15px 40px;
     /**top right bottom left*/
     
+
+  } 
+
+.sub-head {
+    font-family: HelveticaBold !important;
+    font-weight: 300;
+    font-size: 40px;
+    color: white !important;
+    letter-spacing: 0.04em !important;
+
+    height: 60%;
 
   } 
 
@@ -54,3 +65,8 @@
     height: 60%;
 
   } 
+
+.image {
+    height: auto;
+    width: auto;
+}

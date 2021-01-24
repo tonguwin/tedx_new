@@ -18,6 +18,9 @@ import Marquee from 'react-double-marquee';
 import NavBar from 'react-bootstrap/Navbar';
 import Recruit from '../../img/Issue2/JOIN.gif';
 
+
+import Constellate from './images/constellate_title.png'
+
 const black = '#000000';
 
 class Event extends Component {
@@ -275,12 +278,12 @@ class Event extends Component {
                         Events
                         </p>
                     </Row>
-                    <Row style={{paddingTop:"4rem"}} id="about">
+                    <Row  id="about">
                         <Col>
                         <p className="events">Events</p>
                         </Col>
                     </Row>
-                    <Row style={{paddingBottom:"4rem"}}>
+                    <Row >
                         <Col>
                             <div className="box">
                                 <p className="twenty-one"> 2021 </p>
@@ -294,13 +297,16 @@ class Event extends Component {
                             <p className="huearewepre"> Main Conference 
                             </p>
                         </Row>
-                        <Row style={{paddingTop:"4rem"}}>
+                        <Row style={{paddingTop:"2rem"}}>
                             <Col>
-                                <p className="sub">Constellate Pic</p>
+                                <img src={Constellate} className="image"/>
                             </Col>
-                            <Col>
+                            <Col style={{paddingLeft:"4rem"}}>
                                 <Row>
-                                    <p className="sub">information</p>
+                                    <p className="sub-head">Constellate</p>
+                                </Row>
+                                <Row>
+                                    <p className="sub">"Constellate" returns us to a world of child-like wonder, a time when the questions we asked were beyond ourselves - a time when we were so furiously curious of the immense space called the Unknown.</p>
                                 </Row>
                                 <Row>
                                     <div className="sub">buttons?</div>
