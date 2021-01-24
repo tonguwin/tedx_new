@@ -18,8 +18,10 @@ import Marquee from 'react-double-marquee';
 import NavBar from 'react-bootstrap/Navbar';
 import Recruit from '../../img/Issue2/JOIN.gif';
 
-
-import Constellate from './images/constellate_title.png'
+// Temp Images
+import Constellate from './images/constellate_title.png';
+import YourGravity from './images/your_gravity_title.jpg';
+import ShiftEnter from './images/shift_enter_title.png';
 
 const black = '#000000';
 
@@ -316,19 +318,22 @@ class Event extends Component {
                     </Container>
                     
                     {/* This container is the initial salon and infosesh */}
-                    <Container style={{paddingTop:"4rem"}} id ="salon/info">
+                    <Container style={{paddingTop:"6rem"}} id ="salon/info">
                         <Row>
                             <p className="huearewepre">Salons and Info-Sessions</p>
                         </Row>
 
                         
-                        <Row style={{paddingTop:"4rem"}}>
+                        <Row style={{paddingTop:"2rem"}}>
                             <Col>
-                                <p className="sub">Salon Pic</p>
+                                <img src={YourGravity} className="image"/>
                             </Col>
-                            <Col>
+                            <Col style={{paddingLeft:"4rem"}}>
                                 <Row>
-                                    <p className="sub">information</p>
+                                    <p className="sub-head">Your Gravity</p>
+                                </Row>
+                                <Row>
+                                    <p className="sub">"Your Gravity" encourages you to give weight to the things you fall back on, the things that ground and center you, the things around which you revolve and from which you evolve. Gravity that we share is also omnipresent, connects us all, and pulls us together. What, then, lies at the center of this core of yours?</p>
                                 </Row>
                                 <Row>
                                     <div className="sub">buttons?</div>
@@ -336,13 +341,16 @@ class Event extends Component {
                             </Col>
                         </Row>
                         
-                        <Row style={{paddingTop:"4rem"}}>
+                        <Row style={{paddingTop:"6rem"}}>
                             <Col>
-                                <p className="sub">infosession Pic</p>
+                                <img src={ShiftEnter} className="image"/>
                             </Col>
-                            <Col>
+                            <Col style={{paddingLeft:"4rem"}}>
                                 <Row>
-                                    <p className="sub">information</p>
+                                    <p className="sub-head">Shift, Enter</p>
+                                </Row>
+                                <Row>
+                                    <p className="sub">We all have experiences where we are moved off our paths, whether it be by curious choice or retrospective serendipity, and we are presented the opportunity to emerge into new terrain. Sometimes a paradigm shift is required before you make the next step into your lives. We invite you to shift alongside us, and enter TEDXUCSD 2020-2021.</p>
                                 </Row>
                                 <Row>
                                     <div className="sub">buttons?</div>
