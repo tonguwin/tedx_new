@@ -274,103 +274,83 @@ class Event extends Component {
                         <p className="event">
                         Events
                         </p>
+                    <Row style={{paddingTop:"4rem"}} id="about">
+                        <Col>
+                        <p className="events">Events</p>
+                        </Col>
                     </Row>
                     <Row style={{paddingBottom:"4rem"}}>
                         <Col>
-                        <p className="huearewe"> Haha, constellate. 
-                        </p>
+                            <div className="box">
+                                <p className="twenty"> 2020 </p>
+                            </div>
                         </Col>
                     </Row>
-
-                    {/*Social media*/}
-{/*                     <Row style={{paddingTop:"2rem", paddingBottom:"8rem"}}>
-                        <Col className="mx-auto">
-                        </Col>
-                        <Col className="mx-auto justify-content-center align-items-center d-flex">
-                            <a href="https://www.facebook.com/HUEcollectives/" target="_blank">
-                                <img src={require(`../../img/facebookwhite.png`)} style={{paddingRight:"2.5rem"}}></img>
-                            </a>
-                            <a href="https://www.instagram.com/hue.collective/" target="_blank">
-                                <img src={require(`../../img/instagramwhite.png`)} style={{paddingRight:"2.5rem"}}></img>
-                            </a>
-                            <a href="https://www.linkedin.com/company/huecollective/" target="_blank">
-                                <img src={require(`../../img/linkedINwhite.png`)}></img>
-                            </a>
-                        </Col>
-                        <Col className="mx-auto">
-                        </Col>
-                    </Row> */}
                     
-                    <div style={{paddingBottom:"8rem"}}>
-                    <img src={pageBreak} style={{maxWidth:'100%'}}/>
-                    </div>
-
-                    {/*Meet the Team*/}
-                    <Row id="team">
-                        <Col>
-                        <p className="huearewepre">meet the team</p>
-                        </Col>
-                    </Row>
-
-                    <Row style={{paddingBottom:"8rem"}}>
-                        <Col>
-                        <p className="huearewe">Get to know our group of passionate and fun individuals a little more.</p>
-                        </Col>
-                    </Row>
-
-                    {/*This takes a JSON file and creates the main cards */} 
-                    <Row style={{marginBottom:"4rem"}}>
-                        {data.map( data=> (
-                            <Col xs={4} sm={6} md={3} className="marginCard" key={`${data.id}`}>
-                                <Card className="firstCard myCard h-100 shadow-sm bg-white mobileCard" 
-                                style={{margin:"auto"}} 
-                                onClick={() => this.handleShow(data.id)} 
-                                onMouseEnter={()=>this.handleTransform(data.id)} 
-                                onMouseLeave={()=>this.handleNonTransform()} 
-                                style={{transform: `${this.state.hovered===data.id ? 'scale(1.1,1.1)' : 'none'}`, transition:"0.25s ease-in-out"}}>
-                                    
-                                    <Card.Img className = "myCard" src={require(`../../Members/Picture/${data.image}.png`)}/>
-                                    <Card.Body className="mobileCard2">
-                                    <div className="mb-2 justify-content-between">
-                                        <Card.Title className="mb-0 cardFont">{data.name}</Card.Title>
-                                        <Card.Text className="cardFont2">{data.role}</Card.Text>
-                                    </div>
-                                </Card.Body>
-                            </Card>
+                    {/* This container is the initial main conf skeleton */}
+                    <Container id="main">
+                        <Row id="conf title">
+                            <p className="huearewepre">Main Conference</p>
+                        </Row>
+                        <Row style={{paddingTop:"4rem"}}>
+                            <Col>
+                                <p className="sub">Constellate Pic</p>
                             </Col>
-                        ))}
-                    </Row>
-
-                   {/* <div style={{paddingTop:"4rem", paddingBottom:"8rem"}}>
-                   <img src={pageBreak} style={{maxWidth:'100%'}}/>
-                        </div> */}
+                            <Col>
+                                <Row>
+                                    <p className="sub">information</p>
+                                </Row>
+                                <Row>
+                                    <div className="sub">buttons?</div>
+                                </Row>
+                            </Col>
+                        </Row>
+                    </Container>
                     
-                    {/*Secondary social media*/}
-{/*                     <Row>
-                        <Col>
-                        <p className="huearewepre">get in touch</p>
-                        </Col>
-                    </Row>
+                    {/* This container is the initial salon and infosesh */}
+                    <Container style={{paddingTop:"4rem"}} id ="salon/info">
+                        <Row>
+                            <p className="huearewepre">Salons and Info-Sessions</p>
+                        </Row>
 
-                    <Row id="contact">
-                    <Col className="mx-auto justify-content-left align-items-center d-flex" style={{marginBottom:"4rem"}}>
-                            <a href="https://www.facebook.com/HUEcollectives/" target="_blank">
-                                <img src={require(`../../img/facebookwhite.png`)} style={{paddingRight:"2.5rem"}}></img>
-                            </a>
-                            <a href="https://www.instagram.com/hue.collective/" target="_blank">
-                                <img src={require(`../../img/instagramwhite.png`)} style={{paddingRight:"2.5rem"}}></img>
-                            </a>
-                            <a href="https://www.linkedin.com/company/huecollective/" target="_blank">
-                                <img src={require(`../../img/linkedINwhite.png`)}></img>
-                            </a>
-                    </Col>
-                    </Row> */}
+                        
+                        <Row style={{paddingTop:"4rem"}}>
+                            <Col>
+                                <p className="sub">Salon Pic</p>
+                            </Col>
+                            <Col>
+                                <Row>
+                                    <p className="sub">information</p>
+                                </Row>
+                                <Row>
+                                    <div className="sub">buttons?</div>
+                                </Row>
+                            </Col>
+                        </Row>
+                        
+                        <Row style={{paddingTop:"4rem"}}>
+                            <Col>
+                                <p className="sub">infosession Pic</p>
+                            </Col>
+                            <Col>
+                                <Row>
+                                    <p className="sub">information</p>
+                                </Row>
+                                <Row>
+                                    <div className="sub">buttons?</div>
+                                </Row>
+                            </Col>
+                        </Row>
 
+                    </Container>
+
+
+                    
                 </div>
-              {/*This creates the popup for each card*/}
-              {this.renderModals()}
+             
             </Container>
-            <NavBar className="myNav secondaryNav">
+            {/*This creates the whitelineat the bottom*/}
+            {/*<NavBar className="myNav secondaryNav">
                         <div
                             style={{
                                 width: '100%',
@@ -378,11 +358,11 @@ class Event extends Component {
                             }}
                             className="announcement"
                         >
-                            {/* <Marquee speed="0.08" direction="right">Welcome to HUE Collective | Welcome to HUE Collective | Welcome to HUE Collective | Welcome to HUE Collective | Welcome to HUE Collective | Welcome to HUE Collective |</Marquee> */}
+                           
                         </div>
 
 
-                    </NavBar>
+                    </NavBar>*/}
             </div>
         );
     }

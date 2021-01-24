@@ -263,7 +263,7 @@ class About extends Component {
                     </Row>
                     <Row style={{paddingTop:"4rem"}} id="about">
                         <Col>
-                        <p className="huearewepre">What is <span style={{color: 'red'}}> TEDx</span>UCSD?</p>
+                        <p className="huearewepre">What is <span style={{color: '#FF2B06'}}> TEDx</span>UCSD?</p>
                         </Col>
                     </Row>
                     <Row style={{paddingBottom:"4rem"}}>
@@ -275,14 +275,12 @@ class About extends Component {
 
                    
                     
-                    <div style={{paddingBottom:"8rem"}}>
-                    <img src={pageBreak} style={{maxWidth:'100%'}}/>
-                    </div>
+                
 
                     {/*Meet the Team*/}
                     <Row id="team">
                         <Col>
-                        <p className="huearewepre">meet the team</p>
+                        <p className="meet">Meet the Team</p>
                         </Col>
                     </Row>
 

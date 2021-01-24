@@ -111,7 +111,6 @@ class Landing extends Component {
                 <Container>
                     <nav onMouseEnter={this.handleControlsOpen} onMouseLeave={this.handleControlsClose} className="promoLayer">
                         <p className="ideas">Ideas Worth Spreading</p>
-
                     </nav>
                 </Container>
             </div>

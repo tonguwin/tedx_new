@@ -10,11 +10,13 @@
 }
 
 .ideas {
-    font-family: Inter !important;
+    font-family: HelveticaBold !important;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 100px;
     letter-spacing: 0.04em !important;
     line-height: normal;
+    letter-spacing: 0.05em !important;
     color: #f9f9f9 !important;
+
 }

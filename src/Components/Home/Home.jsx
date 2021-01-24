@@ -79,10 +79,11 @@ class Home extends Component {
     render() {
         return (
             <>
-                
-                <div id="test" className="mainLand">
-                    <Landing />
-                </div>
+                <Container> 
+                    <div id="test" className="mainLand">
+                        <Landing />
+                    </div>
+                </Container>
                 <Container>
                     <div className="postVid" id="issueHome">
                         <p className="huearewepre" >What is TEDxUCSD?</p>

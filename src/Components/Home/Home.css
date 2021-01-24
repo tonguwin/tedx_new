@@ -1,6 +1,10 @@
 @media(max-width:767px) {
     .mainLand {
-        height:30vh;
+        height: 50vh;
+        position: relative;
+        top: 20%;
+        margin-left: 0;
+        margin-bottom: 2em; 
     }
     .promo {
         font-size:1rem;
@@ -17,6 +21,10 @@
 @Media(min-width:768px) {
     .mainLand {
         height:80vh;
+        position: relative;
+        top: 20%;
+        margin-left: 0;
+        margin-bottom: 2em; 
     }
     .promo {
         font-size: 2rem;

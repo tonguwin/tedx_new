@@ -11,7 +11,7 @@
 }
 @media (min-width:768px) {
   .imgTest {
-    max-width:25%;
+    max-width: 25%;
     margin-top:1.5rem;
     margin-bottom:1.5rem;
   }
@@ -46,12 +46,17 @@
   text-decoration: underline !important;
 }
 .navbar-toggler {
-  background-color: black !important;
+  background-color: white !important;
 }
 .navbar-collapse > div > div {
   margin: 2rem !important;
 }
 .navbar-dark {
-  background-color: transparent !important;
-  border-color: transparent !important;
+  /* background-color: transparent !important; */
+  border-color:  white !important;
+}
+.navbar-light {
+  /* background-color: transparent !important; */
+  border-color:  #121212 !important;
+  /* border-color: transparent !important; */
 }

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 .Recruitment {
   position:fixed;
   bottom:0;
@@ -156,12 +157,12 @@ body {
   z-index: 9999 !important;
 }
 .navLinks {
-  font-family: VT323 !important;
+  font-family: Karla !important;
   line-height: 106% !important;
   color: white !important;
 }
 .navLinks2 {
-  font-family: VT323 !important;
+  font-family: Karla !important;
   line-height: 106% !important;
   color: white !important;
 }
