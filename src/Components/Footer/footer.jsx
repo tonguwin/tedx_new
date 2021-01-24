@@ -18,25 +18,20 @@ class Footer extends Component {
     render() {
         return (
             <Container className="footer">
-                <Row>
+                <Row >
                     <Col xs={2}>
-                        <a class="fb" href="https://www.instagram.com/hue.collective/" target="_blank">
-                            <img src={Facebook}></img>
+                        <a class="fb" href="https://www.facebook.com/TEDxUCSD" target="_blank">
+                            <img src={Facebook} className="zoom"></img>
                         </a>
                     </Col>
                     <Col xs={2}>
-                        <a class="ig" href="https://www.instagram.com/hue.collective/" target="_blank">
-                            <img src={Instagram}></img>
+                        <a class="ig" href="https://www.instagram.com/tedxucsd/" target="_blank">
+                            <img src={Instagram} className="zoom"></img>
                         </a>
                     </Col>
                     <Col xs={2}>
-                        <a class="linkedin" href="https://www.instagram.com/hue.collective/" target="_blank">
-                            <img src={Linkedin}></img>
-                        </a>
-                    </Col>
-                    <Col xs={2}>
-                        <a class="email" href="https://www.instagram.com/hue.collective/" target="_blank">
-                            <img src={Instagram}></img>
+                        <a class="linkedin" href="https://www.linkedin.com/company/tedxucsd/" target="_blank">
+                            <img src={Linkedin} className="zoom"></img>
                         </a>
                     </Col>
                 </Row>

@@ -311,7 +311,7 @@ class Event extends Component {
                                     <p className="sub">"Constellate" returns us to a world of child-like wonder, a time when the questions we asked were beyond ourselves - a time when we were so furiously curious of the immense space called the Unknown.</p>
                                 </Row>
                                 <Row>
-                                    <div className="sub">buttons?</div>
+                                    <div className="btn btn-5">buttons?</div>
                                 </Row>
                             </Col>
                         </Row>
@@ -336,7 +336,7 @@ class Event extends Component {
                                     <p className="sub">"Your Gravity" encourages you to give weight to the things you fall back on, the things that ground and center you, the things around which you revolve and from which you evolve. Gravity that we share is also omnipresent, connects us all, and pulls us together. What, then, lies at the center of this core of yours?</p>
                                 </Row>
                                 <Row>
-                                    <div className="sub">buttons?</div>
+                                    <div className="btn btn-5">buttons?</div>
                                 </Row>
                             </Col>
                         </Row>
@@ -353,7 +353,7 @@ class Event extends Component {
                                     <p className="sub">We all have experiences where we are moved off our paths, whether it be by curious choice or retrospective serendipity, and we are presented the opportunity to emerge into new terrain. Sometimes a paradigm shift is required before you make the next step into your lives. We invite you to shift alongside us, and enter TEDXUCSD 2020-2021.</p>
                                 </Row>
                                 <Row>
-                                    <div className="sub">buttons?</div>
+                                    <div className="btn btn-5">buttons?</div>
                                 </Row>
                             </Col>
                         </Row>

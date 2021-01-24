@@ -96,19 +96,7 @@ class Home extends Component {
                         <p className="huearewe">two videos, some descriptions blah blah</p>
                     </div>
                 </Container>
-                <NavBar className="myNav secondaryNav">
-                    <div
-                        style={{
-                            width: '100%',
-                            whiteSpace: 'nowrap',
-                        }}
-                        className="announcement"
-                    >
-                        {/* <Marquee speed="0.08" direction="right">Welcome to TEDxUCSD | "Ideas Worth Spreading" | Welcome to TEDxUCSD | "Ideas Worth Spreading" | Welcome to TEDxUCSD | "Ideas Worth Spreading" |</Marquee> */}
-                    </div>
-
-
-                </NavBar>
+                
             </>
         )
     }
