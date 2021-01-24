@@ -3,13 +3,9 @@ import './App.css';
 import FA20 from './Components/FA20/FA20';
 
 
-<<<<<<< HEAD
 import About from './Components/About/About';
 import Blog from './Components/Blog/Blog'
-=======
 // Heyo, remember to import the jsx files that you want routing to be named after ~ 
-import About from './Components/About/About' ;
->>>>>>> 863eae95dd7d359f313be4e10158df22893dcd81
 import Event from './Components/Event/Event';
 import Home from './Components/Home/Home';
 import Sponsors from './Components/Contact/Contact';

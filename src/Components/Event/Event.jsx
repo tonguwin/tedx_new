@@ -274,6 +274,7 @@ class Event extends Component {
                         <p className="event">
                         Events
                         </p>
+                    </Row>
                     <Row style={{paddingTop:"4rem"}} id="about">
                         <Col>
                         <p className="events">Events</p>
@@ -282,7 +283,7 @@ class Event extends Component {
                     <Row style={{paddingBottom:"4rem"}}>
                         <Col>
                             <div className="box">
-                                <p className="twenty"> 2020 </p>
+                                <p className="twenty-one"> 2021 </p>
                             </div>
                         </Col>
                     </Row>
@@ -290,7 +291,8 @@ class Event extends Component {
                     {/* This container is the initial main conf skeleton */}
                     <Container id="main">
                         <Row id="conf title">
-                            <p className="huearewepre">Main Conference</p>
+                            <p className="huearewepre"> Main Conference 
+                            </p>
                         </Row>
                         <Row style={{paddingTop:"4rem"}}>
                             <Col>
@@ -343,9 +345,6 @@ class Event extends Component {
                         </Row>
 
                     </Container>
-
-
-                    
                 </div>
              
             </Container>
