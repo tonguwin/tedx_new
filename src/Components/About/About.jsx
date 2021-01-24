@@ -280,11 +280,11 @@ class About extends Component {
                     {/*Meet the Team*/}
                     <Row id="team">
                         <Col>
-                        <p className="meet">Meet the Team</p>
+                        <p className="meet">Get to Know Us</p>
                         </Col>
                     </Row>
 
-                    <Row style={{paddingBottom:"8rem"}}>
+                    <Row style={{paddingBottom:"4rem"}}>
                         <Col>
                         <p className="huearewe">25 Students, 10 Subteams, 1 Family</p>
                         </Col>
