@@ -286,7 +286,7 @@ class About extends Component {
 
                     <Row style={{paddingBottom:"8rem"}}>
                         <Col>
-                        <p className="huearewe">Get to know our group of passionate and fun individuals a little more.</p>
+                        <p className="huearewe">25 Students, 10 Subteams, 1 Family</p>
                         </Col>
                     </Row>
 
