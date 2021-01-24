@@ -18,7 +18,7 @@ class Footer extends Component {
     render() {
         return (
             <Container className="footer">
-                <Row >
+                <Row className="center">
                     <Col xs={2}>
                         <a class="fb" href="https://www.facebook.com/TEDxUCSD" target="_blank">
                             <img src={Facebook} className="zoom"></img>
