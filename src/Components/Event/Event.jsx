@@ -284,18 +284,22 @@ class Event extends Component {
                         <Col>
                         <p className="events">Events</p>
                         </Col>
+                        <Col>
+                        <p className="second-twenty">- 2021</p>
+                        </Col>
                     </Row>
-                    <Row >
+                    
+                    {/*<Row >
                         <Col>
                             <div className="box">
                                 <p className="twenty-one"> 2021 </p>
                             </div>
                         </Col>
-                    </Row>
+                    </Row>*/}
                     
                     {/* This container is the initial main conf skeleton */}
                     <Container id="main">
-                        <Row id="conf title">
+                        <Row id="conf title" style={{paddingTop:"2rem"}}>
                             <p className="huearewepre"> Main Conference 
                             </p>
                         </Row>
