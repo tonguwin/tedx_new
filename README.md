@@ -17,11 +17,11 @@ Please utilize/reference the Figma design while coding! https://www.figma.com/fi
 
 ### About 
 1. (NOT CODE) start to gather a list of each member and create a google forms to gather bios/fun facts/links 
-2. Make the 'TEDx' in the 'What is TEDxUCSD?' red. This can definitely be googled/stackoverflowed and done easily 
+2. (DONE) Make the 'TEDx' in the 'What is TEDxUCSD?' red. This can definitely be googled/stackoverflowed and done easily 
 3. Once data is gathered, input/replace data in the data.json file! 
 
 ### Blog
-1. Create Blog folder in Components - one jsx and one css file  
+1. (DONE) Create Blog folder in Components - one jsx and one css file  
 2. File imported, routing name set in App2.js and place on NavBar 
 3. Top title that simply reads 'Events' at the top, equipped with the same CSS as the 'About Us' title on the About page
 4. Create a new folder under the blog folder, for blog post files to be (will be empty for now) 
@@ -31,7 +31,7 @@ Please utilize/reference the Figma design while coding! https://www.figma.com/fi
 1. Create Events folder in Components - one jsx and one css file   
 2. File imported, routing name set in App2.js and place on NavBar
 3. Create a new folder under the blog folder, for blog post files to be (will be empty for now) 
-4. Top title that simply reads 'Events' at the top, equipped with the same CSS as the 'About Us' title on the About page
+4. (DONE) Top title that simply reads 'Events' at the top, equipped with the same CSS as the 'About Us' title on the About page
 5. Create a skeleton for the main events page
 6. Create a skeleton for individual event pages
 
@@ -43,7 +43,7 @@ Please utilize/reference the Figma design while coding! https://www.figma.com/fi
 4. Play around with sizing for these boxes, with bigger boxes showing our higher paying sponsors  
 
 ### Studio 
-1. Create Studio folder in Components - one jsx and one css file   
+1. (DONE) Create Studio folder in Components - one jsx and one css file   
 2. File imported, routing name set in App2.js and place on NavBar
 3. Top title that simply reads 'Studio' at the top, equipped with the same CSS as the 'About Us' title on the About page
 4. Find out how to integrate this API into the page (https://github.com/codrops/MorphingBackgroundShapes) 

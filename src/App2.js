@@ -3,7 +3,8 @@ import './App.css';
 import FA20 from './Components/FA20/FA20';
 
 
-import About from './Components/About/About' ;
+import About from './Components/About/About';
+import Blog from './Components/Blog/Blog'
 import Event from './Components/Event/Event';
 import Home from './Components/Home/Home';
 import Sponsors from './Components/Contact/Contact';

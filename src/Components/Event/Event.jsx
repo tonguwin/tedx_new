@@ -270,10 +270,10 @@ class Event extends Component {
                         </Col>
                     </Row>*/}
                     {/*About Section*/}
-                    <Row style={{paddingTop:"4rem"}} id="about">
-                        <Col>
-                        <p className="huearewepre">Events</p>
-                        </Col>
+                    <Row>
+                        <p className="event">
+                        Events
+                        </p>
                     </Row>
                     <Row style={{paddingBottom:"4rem"}}>
                         <Col>
