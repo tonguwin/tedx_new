@@ -8,6 +8,15 @@ import pageBreak from '../../img/pagebreak.png';
 import NavBar from 'react-bootstrap/Navbar';
 import Recruit from '../../img/Issue2/JOIN.gif';
 
+// logos
+import Grad from './Images/grad1.png'
+import Lib from './Images/library.png'
+import Rady from './Images/rady1.png'
+import Research from './Images/research1.png'
+
+// ALTHOUGH THIS PAGE IS CALLED CONTACT -- It's Sponsors
+
+
 class Contact extends Component {
     constructor(props) {
         super(props);
@@ -25,68 +34,47 @@ class Contact extends Component {
                     </p>
                 </Row>
                 <Row>
-                    <Col>
-                        <div className="margin2">
-                            <img className="image" src={contact} />
-                        </div>
-                    </Col>
+                    <p className="huearewe">Our organization wouldn't be possible without the support and encouragement of our wonderful sponsors! If your company or department is interested in sponsoring us and learning more information about our Sponsor Membership program, please contact us at tedxfinance@gmail.com</p>
                 </Row>
-                <div className="breakMargin">
-                    <img src={pageBreak} style={{ maxWidth: '100%' }} />
-                </div>
-                <div className="subtext">
+                <Row style={{paddingTop:"2rem"}}>
+                    <p className="meet">
+                        Past Sponsors
+                    </p>
+                </Row>
+
+                <Container>
                     <Row>
-                        <Col xs={4}>
-                            <p>instagram</p>
+                        <Col>
+                            <a href="https://library.ucsd.edu/" target="_blank">
+                                <img src={Lib} className="image zoom"/>
+                                </a>
                         </Col>
-                        <Col xs={4}>
-                            <p>linkedin</p>
-                        </Col>
-                        <Col xs={4}>
-                            <p>facebook</p>
+                        <Col style={{paddingLeft:"5rem"}}>
+                            <a href="https://rady.ucsd.edu/" target="_blank">
+                                <img src={Rady} className="image zoom" />
+                                </a>
                         </Col>
                     </Row>
 
-                    <div className="underline">
-                    <Row>
-                        <Col xs={4}>
-                            <a href="https://www.instagram.com/hue.collective/">ig/huecollective</a>
+                    <Row style={{paddingTop:"6rem", paddingBottom:"2rem"}}>
+                        <Col>
+                            <a href="https://grad.ucsd.edu/" target="_blank">
+                                <img src={Grad} className="image zoom" />
+                                </a>
                         </Col>
-                        <Col xs={4}>
-                            <a href="https://www.linkedin.com/company/huecollective/">in/huecollective</a></Col>
-                        <Col xs={4}>
-                            <a href="https://www.facebook.com/HUEcollectives/">fb/HUECollectives</a></Col>
+                        <Col style={{paddingLeft:"5rem"}}>
+                            <a href="https://research.ucsd.edu/" target="_blank">
+                                <img src={Research} className="image zoom" />
+                                </a>
+                        </Col>
                     </Row>
-                    </div>
+                </Container>
 
-                    <Row style={{marginTop:"3rem"}}>
-                        <Col xs={4}>
-                            <p>email</p>
-                        </Col>
-                    </Row>
-                    <div className="underline">
-                    <Row>
-                        <Col xs={4}>
-                            <a href="mailto:huecollectives@gmail.com">huecollectives@gmail.com</a>
-                        </Col>
-                    </Row>
-                    </div>
-                    <div style={{marginBottom:"3rem"}}/>
-                </div>
+               
+               
+              
             </Container>
-            <NavBar className="myNav secondaryNav" style={{marginTop:"8rem"}}>
-                        <div
-                            style={{
-                                width: '100%',
-                                whiteSpace: 'nowrap',
-                            }}
-                            className="announcement"
-                        >
-                            {/* <Marquee speed="0.08" direction="right">Welcome to HUE Collective | Welcome to HUE Collective | Welcome to HUE Collective | Welcome to HUE Collective | Welcome to HUE Collective | Welcome to HUE Collective |</Marquee> */}
-                        </div>
-
-
-                    </NavBar>
+            
             </>
         )
     }

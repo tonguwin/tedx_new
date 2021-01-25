@@ -55,3 +55,42 @@
 .underline a {
     color:#FCFCFC;
 }
+
+.sub {
+    font-family: HelveticaBold !important;
+    font-weight: 200;
+    font-size: 20px;
+    color: white !important;
+    letter-spacing: 0.04em !important;
+
+    height: 60%;
+
+  } 
+
+
+  .meet {
+    font-family: HelveticaBold !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 182px !important;
+    letter-spacing: 0.04em !important;
+    color: #f9f9f9 !important;
+    text-align: left;
+  }
+
+  .zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .image {
+    height: auto;
+    width: auto;
+}
