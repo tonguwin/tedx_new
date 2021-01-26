@@ -4,7 +4,7 @@
     margin-top: 2rem;
     font-style: normal;
     font-weight: 500;
-    font-size: 150px;
+    font-size: 800%;
     line-height: 182px;
     /* identical to box height */
     -webkit-text-stroke-width: 3px;
@@ -72,7 +72,7 @@
     font-family: HelveticaBold !important;
     font-style: normal;
     font-weight: 600;
-    font-size: 70px;
+    font-size: 300%;
     line-height: 182px !important;
     letter-spacing: 0.04em !important;
     color: #f9f9f9 !important;
