@@ -70,6 +70,18 @@
 
   } 
 
+.sub-date {
+    font-family: HelveticaBold !important;
+    font-weight: 300;
+    font-size: 15px;
+    color: whitesmoke !important;
+    letter-spacing: 0.04em !important;
+
+    
+
+  } 
+
+
 .sub {
     font-family: HelveticaBold !important;
     font-weight: 200;

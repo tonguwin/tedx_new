@@ -17,8 +17,14 @@ import {
     TransitionGroup,
 } from 'react-transition-group';
 
+import grav from '../Event/images/your_gravity_title.jpg';
+import moon from './images/MOON.png';
+import type from './images/type.png';
 /* This page creates the video landing area at the beginning! We could easily remove it from home and remove this bought I thought keeping it would make for 
 an interesting file to pull from and take inspo from... scroll down to past the return part which lets you play w html/css */
+
+
+
 
 
 
@@ -106,12 +112,10 @@ class Landing extends Component {
         
         return (
             <>
-            <div className="responseVid" style={{ width: ' 100%', height: '100%' }}>
+            <div style={{ width: ' 100%', height: '100%' }}>
                 
-                <Container>
-                    <nav onMouseEnter={this.handleControlsOpen} onMouseLeave={this.handleControlsClose} className="promoLayer">
-                        <p className="ideas">Ideas Worth Spreading</p>
-                    </nav>
+                <Container>    
+                    <img src={type} className="bigboy"/>
                 </Container>
             </div>
 

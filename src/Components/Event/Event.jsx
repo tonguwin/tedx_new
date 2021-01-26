@@ -312,6 +312,9 @@ class Event extends Component {
                                     <p className="sub-head">Constellate</p>
                                 </Row>
                                 <Row>
+                                    <p className="sub-date">May 15th and 16th, 2021</p>
+                                </Row>
+                                <Row>
                                     <p className="sub">"Constellate" returns us to a world of child-like wonder, a time when the questions we asked were beyond ourselves - a time when we were so furiously curious of the immense space called the Unknown.</p>
                                 </Row>
                                 <Row>
