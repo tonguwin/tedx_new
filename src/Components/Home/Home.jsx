@@ -11,6 +11,7 @@ import Landing from '../Landing/Landing';
 import Recruit from '../../img/Issue2/JOIN.gif';
 import { Redirect, Link } from 'react-router-dom';
 
+import podcast from './images/podcast1.png';
 
 
 
@@ -90,11 +91,21 @@ class Home extends Component {
                         <p className="huearewe">TEDxUCSD’s mission is to bring together leading thinkers and doers to share ideas that matter in and to any discipline - technology, entertainment, design, science, humanities, business, development, and much more. Through a local forum, we hope to inspire people to change their lives, their futures, and ultimately their world.</p>
                     </div>
                 </Container>
-                <Container>
-                    <div className="postVid" id="issueHome">
+                
+                <Container style={{paddingTop:"2rem"}}>
                         <p className="huearewepre" >Learn more</p>
-                        <p className="huearewe">two videos, some descriptions blah blah</p>
-                    </div>
+                        
+                        <Row style={{paddingTop:"2rem"}}>
+                            <Col><p className="huearewe">Picture for nominating</p></Col>
+                            <Col><p className="huearewe">Description</p></Col>
+                        </Row>
+                        
+                        <Row style={{paddingTop:"8rem"}}>
+                            <Col><p className="huearewe">We started a podcast!</p> <p className="huearewe">1200+ Acres is... I am so tired y'all. Why windystormy</p></Col>
+                            <Col><img src={podcast} className="image zoom"/></Col>
+                        </Row>
+                        
+                    
                 </Container>
                 
             </>

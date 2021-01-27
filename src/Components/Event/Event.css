@@ -34,6 +34,16 @@
     text-align: right;
     
 }
+
+.date {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200%;
+    padding-left: 1%;
+    color: white;
+
+}
     
 
 .box {
@@ -91,9 +101,24 @@
 
   } 
 
+.des {
+    font-family: HelveticaBold !important;
+    font-weight: 200;
+    font-size: 100%;
+    color: white !important;
+    letter-spacing: 0.04em !important;
+    
+
+}
+
 .image {
     height: auto;
     width: auto;
+}
+
+.image-full {
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -126,4 +151,10 @@
   
   .zoom:hover {
     transform: scale(.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+.center1 {
+      text-align: center;
+      justify-content: center;
   }

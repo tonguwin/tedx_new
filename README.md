@@ -30,55 +30,30 @@ Please utilize/reference the Figma design while coding! https://www.figma.com/fi
 4. Create a new folder under the blog folder, for blog post files to be (will be empty for now) 
 5. Set up the divs/skeleton for this for content to be entered (Todd will handle this) 
 
-### Events 
-1. Create Events folder in Components - one jsx and one css file   
-2. File imported, routing name set in App2.js and place on NavBar
-3. Create a new folder under the blog folder, for blog post files to be (will be empty for now) 
-4. (DONE) Top title that simply reads 'Events' at the top, equipped with the same CSS as the 'About Us' title on the About page
-5. Create a skeleton for the main events page
-6. Create a skeleton for individual event pages
-
-### Sponsors 
-1. Top title that simply reads 'Sponsors' at the top, equipped with the same CSS as the 'About Us' title on the About page 
-2. 'Current sponsors' implemented after the title of the page 
-3. Title cards to represent sponsors, can be pulled from About Us page 
-### About
-
-1. (NOT CODE) start to gather a list of each member and create a google forms to gather bios/fun facts/links
-2. DONE: Make the 'TEDx' in the 'What is TEDxUCSD?' red. This can definitely be googled/stackoverflowed and done easily
-3. Once data is gathered, input/replace data in the data.json file!
-
-### Blog
-
-1. Create Blog folder in Components - one jsx and one css file
-2. File imported, routing name set in App2.js and place on NavBar
-3. Top title that simply reads 'Blogs' at the top, equipped with the same CSS as the 'About Us' title on the About page
-4. Create a new folder under the blog folder, for blog post files to be (will be empty for now)
-5. Set up the divs/skeleton for this for content to be entered (Todd will handle this)
-
 ### Events
 
-1. Create a new folder under the Events folder, for individual events to be (will be empty for now)
-2. DONE: Top title that simply reads 'Events' at the top, equipped with the same CSS as the 'About Us' title on the About page
+1. (DONE) Create a new folder under the Events folder, for individual events to be (will be empty for now)
+2. (DONE) Top title that simply reads 'Events' at the top, equipped with the same CSS as the 'About Us' title on the About page
 3. Fix CSS for the 2020 in the circular box 
-3. Create a skeleton for the main events page (how rows/columns will be organized)
-4. Create a skeleton for individual event pages (how rows/columns will be organized)
+3. (DONE) Create a skeleton for the main events page (how rows/columns will be organized)
+4. (DONE) Create a skeleton for individual event pages (how rows/columns will be organized)
 
 (While doing the following three sections, please refer to the figma for reference, they should all be pretty similar so once you do one, the rest should be a piece of cake) 
-#### Main Conference 
-1. Add picture into given column, play around with CSS to make a neat box 
-2. Add general description (some CSS will come to work here as well, feel free to make a new CSS for general descriptions under Events.css)  
-3. Create two separate buttons under general description (please refer to Figma) 
 
-#### Salon
+#### Main Conference (DONE)
+1. (DONE) Add picture into given column, play around with CSS to make a neat box 
+2. (DONE) Add general description (some CSS will come to work here as well, feel free to make a new CSS for general descriptions under Events.css)  
+3. (DONE) Create two separate buttons under general description (please refer to Figma) 
+
+#### Salon (DONE)
 The following directions will be for both our upcoming salon, "Your Gravity" 
-1. Add picture into given column, play around with CSS to make a neat box 
-2. Add general description (some CSS will come to work here as well, feel free to make a new CSS for general descriptions under Events.css)  
+1. (DONE) Add picture into given column, play around with CSS to make a neat box 
+2. (DONE) Add general description (some CSS will come to work here as well, feel free to make a new CSS for general descriptions under Events.css)  
 
-#### Info-Sesh
+#### Info-Sesh (DONE)
 The following directions will be for our last info session - "Shift, Enter" 
-1. Add picture into given column, play around with CSS to make a neat box 
-2. Add general description (some CSS will come to work here as well, feel free to make a new CSS for general descriptions under Events.css)  
+1. (DONE) Add picture into given column, play around with CSS to make a neat box 
+2. (DONE) Add general description (some CSS will come to work here as well, feel free to make a new CSS for general descriptions under Events.css)  
 
 ### Sponsors
 
@@ -88,7 +63,6 @@ The following directions will be for our last info session - "Shift, Enter"
 4. Figure out how to add data into the cards for sponsors that differs from the About Us page
 5. Play around with sizing for these boxes, with bigger boxes showing our higher paying sponsors
 
-### Studio
 
 ### Studio 
 1. (DONE) Create Studio folder in Components - one jsx and one css file   
@@ -99,7 +73,7 @@ The following directions will be for our last info session - "Shift, Enter"
 
 ### Home/Landing
 
-1. Fix spacing (most likely w CSS) with the "Ideas Worth Spreading" Title
+1. Fix spacing (most likely w CSS) with the "Your Gravity" Title/Banner
 2. Make the 'what is TEDxUCSD' lead to the About Us page
 3. Play around/add fun random boxes that are clickable
 4. Create the berkeley esque video display (refer to Figma)
@@ -141,3 +115,16 @@ Our MVP features are:
 - About Us
 - Events
 - Sponsors
+
+## (Update 1/27) -- Howdy in a Windstorm
+
+Howdy, I am writing this to y'all as a windstorm occurs outside my house. It took my internet out. I am in eternal sadness. Sigh. Anyways, I did a lot of coding on my local computer while it happened because you can still code while the internet is down! WOO. Lots of things are done! We have individual event pages for each 2021 event, a sponsors list with previous sponsors, and a navbar that works!
+
+The following tasks are definitely the most urgent:
+- Home/Landing -- add picture of one of our past speakers that leads to google form, play around with the banner bc it kinda ugly rn (my fault - Todd)
+- Get some group image for the about us page as placeholder! 
+- Smoll, consistent CSS throughout the whole page 
+
+This is off topic but I am HELLA EXCITED to work on the blog section. That's going to be so lit. 
+
+O, also, I was able to lead some buttons to certain places on the page by using links through local host. I still have no idea how to redirect on this app lol. When the CNAME/official web browser is completed, we could easily do the same -- although the only way to test is to fully deploy each time HAHA. 

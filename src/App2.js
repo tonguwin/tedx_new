@@ -10,6 +10,11 @@ import Event from './Components/Event/Event';
 import Home from './Components/Home/Home';
 import Sponsors from './Components/Contact/Contact';
 
+import Constellate from './Components/Event/pages/Constellate';
+import Gravity from './Components/Event/pages/Gravity';
+import Shift from './Components/Event/pages/Shift';
+
+
 
 import { Redirect } from 'react-router-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -52,6 +57,9 @@ const App = ({ location }) => {
           {/* Current blank page for articles */}
           <Route exact path="/about" component={About} />
           <Route exact path="/event" component={Event} />
+          <Route exact path="/constellate" component={Constellate} />
+          <Route exact path="/yourgravity" component={Gravity} />
+          <Route exact path="/shiftenter" component={Shift} />
           <Route exact path="/sponsor" component={Sponsors} />
           
           <TransitionGroup component="main">
