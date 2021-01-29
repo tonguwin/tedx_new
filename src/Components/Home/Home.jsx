@@ -87,7 +87,7 @@ class Home extends Component {
                 </Container>
                 <Container>
                     <div className="postVid" id="issueHome">
-                        <p className="huearewepre" >What is TEDxUCSD?</p>
+                        <p className="huearewepre" >What is <span style={{color: '#FF2B06'}}> TEDx</span>UCSD?</p>
                         <p className="huearewe">TEDxUCSD’s mission is to bring together leading thinkers and doers to share ideas that matter in and to any discipline - technology, entertainment, design, science, humanities, business, development, and much more. Through a local forum, we hope to inspire people to change their lives, their futures, and ultimately their world.</p>
                     </div>
                 </Container>
@@ -101,15 +101,24 @@ class Home extends Component {
                         </Row>
                         
                         <Row style={{paddingTop:"8rem"}}>
-                            <Col><p className="huearewe">We started a podcast!</p> <p className="huearewe">1200+ Acres is... I am so tired y'all. Why windystormy</p></Col>
-                            <Col><img src={podcast} className="image zoom"/></Col>
+                            <Col><p className="huearewe">We started a podcast!</p> 
+                            <p className="huearewe">UC San Diego is made of 1200+ acres and even more untold stories from the students who go here. Join the TEDxUCSD team every Friday as we interview UC San Diego students who have ideas worth spreading. Every episode will plunge you into their powerful stories and leave you with a refreshing new perspective.</p>
+                            </Col>
+
+                            <Col>
+                                <a class="podcast" href="https://open.spotify.com/show/2kth4uP5hxQNnZezWpW2RL?si=8j3gddehQWqfO9HkRl1S7A" target="_blank">
+                                <img src={podcast} className="image zoom"/>
+                                </a>
+                            </Col>
                         </Row>
                         
                     
                 </Container>
                 
+               
             </>
         )
     }
 }
+// I can't for the life of me figure out which css file is for the gravity picture ahhh - Han
 export default connect(null, { setTheme })(Home);
