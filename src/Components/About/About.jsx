@@ -342,19 +342,7 @@ class About extends Component {
               {/*This creates the popup for each card*/}
               {this.renderModals()}
             </Container>
-            <NavBar className="myNav secondaryNav">
-                        <div
-                            style={{
-                                width: '100%',
-                                whiteSpace: 'nowrap',
-                            }}
-                            className="announcement"
-                        >
-                            
-                        </div>
-
-
-                    </NavBar>
+            
             </div>
         );
     }
