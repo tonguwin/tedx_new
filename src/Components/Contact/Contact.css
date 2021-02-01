@@ -94,3 +94,12 @@
     height: auto;
     width: auto;
 }
+
+
+.text {
+    font-family: Karla !important;
+    font-size: 130%;
+    line-height: 150% !important;
+    color: #fcfcfc !important;
+    letter-spacing: 0.04em !important;
+  }
