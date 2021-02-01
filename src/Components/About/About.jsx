@@ -280,17 +280,18 @@ class About extends Component {
                     {/*Meet the Team*/}
                     <Row id="team">
                         <Col>
-                        <p className="meet">Get to Know Us</p>
+                        <p className="meet1">Our "Get to Know Us" section is in development... 👷</p>
                         </Col>
                     </Row>
 
-                    <Row style={{paddingBottom:"4rem"}}>
+                    <Row >
                         <Col>
-                        <p className="huearewe">25 Students, 10 Subteams, 1 Family</p>
+                        <p className="meet2">25 Students, 10 Subteams, 1 Family</p>
                         </Col>
                     </Row>
-
+                    
                     {/*This takes a JSON file and creates the main cards */} 
+                    {/*
                     <Row style={{marginBottom:"4rem"}}>
                         {data.map( data=> (
                             <Col xs={4} sm={6} md={3} className="marginCard" key={`${data.id}`}>
@@ -311,7 +312,7 @@ class About extends Component {
                             </Card>
                             </Col>
                         ))}
-                    </Row>
+                    </Row> *}
 
                    {/* <div style={{paddingTop:"4rem", paddingBottom:"8rem"}}>
                    <img src={pageBreak} style={{maxWidth:'100%'}}/>
