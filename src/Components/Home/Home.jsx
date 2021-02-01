@@ -95,7 +95,7 @@ class Home extends Component {
                 <Container style={{paddingTop:"6rem"}}>
                         <p className="huearewepre" >TEDx Highlights</p>
                         
-                        <Row style={{paddingTop:"2rem"}}>
+                        <Row className="centering" style={{paddingTop:"2rem"}}>
                             <Col>
                                 <a class="scout" href="https://forms.gle/pY5j1NhwK1K4b4BBA" target="_blank">
                                 <img src={scout} className="image zoom2"/>
@@ -103,12 +103,14 @@ class Home extends Component {
                             </Col>
                             <Col style={{paddingTop:"4rem"}}><p className="huearewe centering">We're recruiting scouts!</p>
                             <p className="text centering">TEDxUCSD is recruiting for undergraduate UCSD interns who are interested in getting to know more about our behind-the-scenes work, learn from our team members, execute their own projects, and join us as we prep for out annual main conference</p>
+                            <a className="btn btn-51" href="https://forms.gle/pY5j1NhwK1K4b4BBA" target="_blank" >Apply Now</a>
                             </Col>
                         </Row>
                         
-                        <Row style={{paddingTop:"4rem"}}>
+                        <Row className="centering" style={{paddingTop:"4rem"}}>
                             <Col style={{paddingTop:"4rem"}}><p className="huearewe centering">We started a podcast!</p> 
                             <p className="text centering">UC San Diego is made of 1200+ acres and even more untold stories from the students who go here. Join the TEDxUCSD team every Friday as we interview UC San Diego students who have ideas worth spreading. Every episode will plunge you into their powerful stories and leave you with a refreshing new perspective.</p>
+                            <a className="btn btn-51" href="https://open.spotify.com/show/2kth4uP5hxQNnZezWpW2RL?si=8j3gddehQWqfO9HkRl1S7A" target="_blank" >Listen on Spotify</a>
                             </Col>
 
                             <Col>
