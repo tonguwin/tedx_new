@@ -24,14 +24,31 @@
 .bigboy {
     height: 100%;
     width: 100%;
-    padding-top: 2rem;
+    padding-top: .5rem;
 }
 
-.zoom {
+.zoom1 {
     transition: transform .5s; /* Animation */
  
   }
   
-  .zoom:hover {
-    transform: scale(.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  .zoom1:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
+
+
+  .landit {
+    
+    font-family: HelveticaBold;
+    margin-top: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 340%;
+    
+    /* identical to box height */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    color: transparent;
+    text-align: center;
+    
+}

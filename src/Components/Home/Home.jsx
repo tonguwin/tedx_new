@@ -93,12 +93,12 @@ class Home extends Component {
                 </Container>
                 
                 <Container style={{paddingTop:"6rem"}}>
-                        <p className="huearewepre" >Some new stuff</p>
+                        <p className="huearewepre" >TEDx Highlights</p>
                         
                         <Row style={{paddingTop:"2rem"}}>
                             <Col>
                                 <a class="scout" href="https://forms.gle/pY5j1NhwK1K4b4BBA" target="_blank">
-                                <img src={scout} className="image"/>
+                                <img src={scout} className="image zoom2"/>
                                 </a>
                             </Col>
                             <Col style={{paddingTop:"4rem"}}><p className="huearewe centering">We're recruiting scouts!</p>
@@ -113,7 +113,7 @@ class Home extends Component {
 
                             <Col>
                                 <a class="podcast" href="https://open.spotify.com/show/2kth4uP5hxQNnZezWpW2RL?si=8j3gddehQWqfO9HkRl1S7A" target="_blank">
-                                <img src={podcast} className="image"/>
+                                <img src={podcast} className="image zoom2"/>
                                 </a>
                             </Col>
                         </Row>

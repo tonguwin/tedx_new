@@ -20,6 +20,8 @@ import {
 import grav from '../Event/images/your_gravity_title.jpg';
 import moon from './images/MOON.png';
 import type from './images/type.png';
+
+
 /* This page creates the video landing area at the beginning! We could easily remove it from home and remove this bought I thought keeping it would make for 
 an interesting file to pull from and take inspo from... scroll down to past the return part which lets you play w html/css */
 
@@ -115,7 +117,8 @@ class Landing extends Component {
             <div style={{ width: ' 100%', height: '100%' }}>
                 
                 <Container>    
-                    <img src={type} className="bigboy"/>
+                    <p className="landit">Upcoming</p>
+                    <img src={grav} className="bigboy zoom1"/>
                 </Container>
             </div>
 
