@@ -118,7 +118,7 @@ class Landing extends Component {
                 
                 <Container>    
                     <p className="landit">Upcoming</p>
-                    <img src={grav} className="bigboy zoom1"/>
+                    <a href="http://localhost:3000/yourgravity"><img src={grav} className="bigboy zoom1"/></a>
                 </Container>
             </div>
 

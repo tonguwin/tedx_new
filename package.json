@@ -1,4 +1,5 @@
 {
+  "package-name": "git+https://<github_token>:x-oauth-basic@github.com/<user>/<repo>.git",
   "homepage": "http://tonguwin.github.io/tedx_new",
   "name": "tedxucsd",
   "version": "0.1.0",
