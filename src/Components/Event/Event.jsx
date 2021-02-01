@@ -358,7 +358,7 @@ class Event extends Component {
                                     <p className="sub-head">Shift + Enter</p>
                                 </Row>
                                 <Row>
-                                    <p className="sub">We all have experiences where we are moved off our paths, whether it be by curious choice or retrospective serendipity, and we are presented the opportunity to emerge into new terrain. Sometimes a paradigm shift is required before you make the next step into your lives. We invite you to shift alongside us, and enter TEDXUCSD 2020-2021.</p>
+                                    <p className="sub">We all have experiences where we are moved off our paths, whether it be by curious choice or retrospective serendipity, and we are presented the opportunity to emerge into new terrain. Sometimes a paradigm shift is required before you make the next step into your lives. We invite you to shift alongside us, and enter TEDxUCSD 2020-2021.</p>
                                 </Row>
                                 <Row>
                                     <a className="btn btn-5" href="http://localhost:3000/shiftenter" target="_blank">Learn More</a>
