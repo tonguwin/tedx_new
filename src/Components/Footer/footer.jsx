@@ -2,10 +2,11 @@ import React, { useState, Component } from 'react';
 import { connect } from 'react-redux';
 import '../Footer/Footer.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import Facebook from '../../img/facebookwhite.png';
-import Instagram from '../../img/instagramwhite.png';
-import Linkedin from '../../img/linkedINwhite.png';
-import Email from '../../img/email.png';
+import Facebook from './images/facebook.png';
+import Instagram from './images/ig.png';
+import Linkedin from './images/link.png';
+import Email from './images/mail.png';
+
 
 
 // Ayo, if it doesn't start up -- just make sure this file's name starts w a capital F 
@@ -34,6 +35,14 @@ class Footer extends Component {
                             <img src={Linkedin} className="zoom"></img>
                         </a>
                     </Col>
+                    <Col xs={2}>
+                        <a class="linkedin" href="mailto:tedxucsd@gmail.com" target="_blank">
+                            <img src={Email} className="zoom"></img>
+                        </a>
+                    </Col>
+                </Row>
+                <Row style={{paddingTop:"2rem"}}>
+                    <p className="text1">This independent TEDx event is operated under license from TED</p>
                 </Row>
             </Container>
         )
