@@ -34,7 +34,7 @@ class Contact extends Component {
                     </p>
                 </Row>
                 <Row>
-                    <p className="text">Our organization wouldn't be possible without the support and encouragement of our wonderful sponsors! If your company or department is interested in sponsoring us and learning more information about our Sponsor Membership program, please contact us at <a href="mailto:tedxfinance@gmail.com">tedxfinance@gmail.com</a></p>
+                    <p className="text2">Our organization wouldn't be possible without the support and encouragement of our wonderful sponsors! If your company or department is interested in sponsoring us and learning more information about our Sponsor Membership program, please contact us at <a href="mailto:tedxfinance@gmail.com">tedxfinance@gmail.com</a></p>
                 </Row>
                 <Row style={{paddingTop:"2rem"}}>
                     <p className="meet">
