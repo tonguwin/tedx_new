@@ -128,3 +128,14 @@ The following tasks are definitely the most urgent:
 This is off topic but I am HELLA EXCITED to work on the blog section. That's going to be so lit. 
 
 O, also, I was able to lead some buttons to certain places on the page by using links through local host. I still have no idea how to redirect on this app lol. When the CNAME/official web browser is completed, we could easily do the same -- although the only way to test is to fully deploy each time HAHA. 
+
+## (Update 2/10) -- GitPages Movement
+
+Yo yo, so we've moved our website onto github pages. Although, it's not officially deployed with our correct domain yet because of a transfer problem, we now have a site that can be utilized/seen through github technically. Now, to update a react app with github pages you need to follow the following after pushing your latest changes! 
+- After commiting/pushing your changes, do `npm run deploy`. This was take a while (takes my computer 5 ish minutes) and what it ultimately does is deploy our latest changes to our gh-pages branch on github! This should then be fully seen on our current website a few minutes later. 
+
+So whenever you make an edit, remember to also do `npm run deploy` afterwards if you want your changes to be reflected in the actual website! 
+
+Full documentation on the process of making a react app deploy to github pages can be seen here: https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f 
+
+Site can be seen here: https://tonguwin.github.io/ 
