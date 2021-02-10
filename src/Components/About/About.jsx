@@ -10,8 +10,6 @@ import '../../animation.css';
 import data from '../../data.json';
 import popupData from '../../popup.json';
 import ReactPlayer from 'react-player';
-import promoVid from '../../img/promo.mp4';
-import promoVidThumbnail from '../../img/thumbnail.png';
 import { Link, animateScroll as scroll } from "react-scroll";
 import pageBreak from '../../img/pagebreak.png';
 import Marquee from 'react-double-marquee';

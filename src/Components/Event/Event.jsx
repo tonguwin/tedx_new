@@ -10,8 +10,6 @@ import '../../animation.css';
 import data from '../../data.json';
 import popupData from '../../popup.json';
 import ReactPlayer from 'react-player';
-import promoVid from '../../img/promo.mp4';
-import promoVidThumbnail from '../../img/thumbnail.png';
 import { Link, animateScroll as scroll } from "react-scroll";
 import pageBreak from '../../img/pagebreak.png';
 import Marquee from 'react-double-marquee';
@@ -305,7 +303,7 @@ class Event extends Component {
                         </Row>
                         <Row style={{paddingTop:"2rem"}}>
                             <Col>
-                                <a href="http://localhost:3000/constellate" target="_blank"> <img src={Constellate} className="image zoom"/> </a>
+                                <a href="https://tonguwin.github.io/tedx_new/constellate" target="_blank"> <img src={Constellate} className="image zoom"/> </a>
                             </Col>
                             <Col style={{paddingLeft:"4rem"}}>
                                 <Row>
@@ -318,7 +316,7 @@ class Event extends Component {
                                     <p className="sub">"Constellate" returns us to a world of child-like wonder, a time when the questions we asked were beyond ourselves - a time when we were so furiously curious of the immense space called the Unknown.</p>
                                 </Row>
                                 <Row>
-                                    <a className="btn btn-5" href="http://localhost:3000/constellate" target="_blank">Learn More</a>
+                                    <a className="btn btn-5" href="https://tonguwin.github.io/tedx_new/constellate" target="_blank">Learn More</a>
                                 </Row>
                             </Col>
                         </Row>
@@ -333,7 +331,7 @@ class Event extends Component {
                         
                         <Row style={{paddingTop:"2rem"}}>
                             <Col>
-                            <a href="http://localhost:3000/yourgravity" target="_blank"><img src={YourGravity} className="image zoom"/></a>
+                            <a href="https://tonguwin.github.io/tedx_new/yourgravity" target="_blank"><img src={YourGravity} className="image zoom"/></a>
                             </Col>
                             <Col style={{paddingLeft:"4rem"}}>
                                 <Row>
@@ -344,14 +342,14 @@ class Event extends Component {
                                 </Row>
                                 <Row>
                                     <Col><a className="btn btn-5" href="https://www.facebook.com/events/474210180410354" target="_blank">Register</a></Col>
-                                    <Col><a className="btn btn-5" href="http://localhost:3000/yourgravity" target="_blank">Learn More</a></Col>
+                                    <Col><a className="btn btn-5" href="https://tonguwin.github.io/tedx_new/yourgravity" target="_blank">Learn More</a></Col>
                                 </Row>
                             </Col>
                         </Row>
                         
                         <Row style={{paddingTop:"6rem"}}>
                             <Col>
-                            <a href="http://localhost:3000/shiftenter" target="_blank"><img src={ShiftEnter} className="image zoom"/></a>
+                            <a href="https://tonguwin.github.io/tedx_new/shiftenter" target="_blank"><img src={ShiftEnter} className="image zoom"/></a>
                             </Col>
                             <Col style={{paddingLeft:"4rem"}}>
                                 <Row>
@@ -361,7 +359,7 @@ class Event extends Component {
                                     <p className="sub">We all have experiences where we are moved off our paths, whether it be by curious choice or retrospective serendipity, and we are presented the opportunity to emerge into new terrain. Sometimes a paradigm shift is required before you make the next step into your lives. We invite you to shift alongside us, and enter TEDxUCSD 2020-2021.</p>
                                 </Row>
                                 <Row>
-                                    <a className="btn btn-5" href="http://localhost:3000/shiftenter" target="_blank">Learn More</a>
+                                    <a className="btn btn-5" href="https://tonguwin.github.io/tedx_new/shiftenter" target="_blank">Learn More</a>
                                 </Row>
                             </Col>
                         </Row>

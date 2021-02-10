@@ -1,6 +1,5 @@
 import React, { Component, useState } from 'react';
 import { setTheme } from '../../redux/actions';
-import promoVid from '../../img/promo.mp4';
 import TestComponent from 'react-background-video-player';
 import playIcon from '../../img/thumbnail.jpg';
 import playVid from '../../img/Issue2/playInterview.png';
@@ -118,7 +117,7 @@ class Landing extends Component {
                 
                 <Container>    
                     <p className="landit">Upcoming</p>
-                    <a href="http://localhost:3000/yourgravity"><img src={grav} className="bigboy zoom1"/></a>
+                    <a href="https://tonguwin.github.io/tedx_new/yourgravity"><img src={grav} className="bigboy zoom1"/></a>
                 </Container>
             </div>
 
