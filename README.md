@@ -138,4 +138,4 @@ So whenever you make an edit, remember to also do `npm run deploy` afterwards if
 
 Full documentation on the process of making a react app deploy to github pages can be seen here: https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f 
 
-Site can be seen here: https://tonguwin.github.io/ 
+Site can be seen here: https://tonguwin.github.io/tedx_new/
