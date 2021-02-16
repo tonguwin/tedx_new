@@ -116,7 +116,7 @@ class Landing extends Component {
             <div style={{ width: ' 100%', height: '100%' }}>
                 
                 <Container>    
-                    <p className="landit">Upcoming</p>
+                    <p className="landit">Featured</p>
                     <a href="https://tedxucsd.com/yourgravity"><img src={grav} className="bigboy zoom1"/></a>
                 </Container>
             </div>
