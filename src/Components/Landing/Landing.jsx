@@ -117,7 +117,7 @@ class Landing extends Component {
                 
                 <Container>    
                     <p className="landit">Upcoming</p>
-                    <a href="https://tonguwin.github.io/tedx_new/yourgravity"><img src={grav} className="bigboy zoom1"/></a>
+                    <a href="https://tedxucsd.com/yourgravity"><img src={grav} className="bigboy zoom1"/></a>
                 </Container>
             </div>
 
