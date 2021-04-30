@@ -49,7 +49,7 @@ class Gravity extends Component {
                 </Row>
                 <Row>
                     <p className="date" style={{paddingTop:"5rem"}}>
-                        Speaker list coming soon... 
+                        
                     </p>
                 </Row>
             

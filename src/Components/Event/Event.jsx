@@ -341,7 +341,7 @@ class Event extends Component {
                                     <p className="sub">"Your Gravity" encourages you to give weight to the things you fall back on, the things that ground and center you, the things around which you revolve and from which you evolve. Gravity that we share is also omnipresent, connects us all, and pulls us together. What, then, lies at the center of this core of yours?</p>
                                 </Row>
                                 <Row>
-                                    <Col><a className="btn btn-5" href="https://www.facebook.com/events/474210180410354" target="_blank">Register</a></Col>
+                                    <Col><a className="btn btn-5" href="https://www.facebook.com/events/474210180410354" target="_blank">FB Event Page</a></Col>
                                     <Col><a className="btn btn-5" href="https://tedxucsd.com/yourgravity" target="_blank">Learn More</a></Col>
                                 </Row>
                             </Col>
