@@ -49,7 +49,12 @@ const Navbar = ({ color, theme }) => {
                 </NavBar.Brand>
                 <NavBar.Toggle aria-controls="responsive-navbar-nav" className={myTheme === "black" ? "navbar-light" : "navbar-light"}/>
                 <NavBar.Collapse id="responsive-navbar-nav">
+                    
                     <Nav className="ml-auto">
+                        <Nav.Link className={myTheme === "black" ? 'navLinks' : 'navLinks'} onClick={() => redirectTo("/")}>
+                                Home
+                        </Nav.Link>
+
                         <Nav.Link className={myTheme === "black" ? 'navLinks' : 'navLinks'} onClick={() => redirectTo('/about')}>
                                 About
                         </Nav.Link>

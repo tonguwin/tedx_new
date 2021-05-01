@@ -19,6 +19,7 @@ import {
 import grav from '../Event/images/your_gravity_title.jpg';
 import moon from './images/MOON.png';
 import type from './images/type.png';
+import constellate from './images/constellate.png'
 
 
 /* This page creates the video landing area at the beginning! We could easily remove it from home and remove this bought I thought keeping it would make for 
@@ -117,7 +118,7 @@ class Landing extends Component {
                 
                 <Container>    
                     <p className="landit">Featured</p>
-                    <a href="https://tedxucsd.com/yourgravity"><img src={grav} className="bigboy zoom1"/></a>
+                    <a href="https://tedxucsd.com/constellate" target="_blank"><img src={constellate} className="bigboy zoom1"/></a>
                 </Container>
             </div>
 

@@ -6,6 +6,7 @@ import Facebook from './images/facebook.png';
 import Instagram from './images/ig.png';
 import Linkedin from './images/link.png';
 import Email from './images/mail.png';
+//import Youtube from "./images/youtube.png";
 
 
 
@@ -41,6 +42,8 @@ class Footer extends Component {
                         </a>
                     </Col>
                 </Row>
+
+
                 <Row style={{paddingTop:"2rem"}}>
                     <p className="text1">This independent TEDx event is operated under license from TED</p>
                 </Row>

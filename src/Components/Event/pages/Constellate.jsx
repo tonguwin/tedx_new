@@ -28,7 +28,7 @@ class Constellate extends Component {
             <Container>
                 <Row>
                     <p className="events">
-                        Constellate
+                        C<span style={{color: '#FF2B06'}}> o</span>nst<span style={{color: '#FF2B06'}}>e</span>ll<span style={{color: '#FF2B06'}}> a</span>t<span style={{color: '#FF2B06'}}>w</span>
                     </p>
                 </Row>
                 <Row>
@@ -37,7 +37,7 @@ class Constellate extends Component {
                     </p>
                 </Row>
                 <Row>
-                    <img src={Constellate1} className="image"/>
+                    <img src={Constellate1} className="image"/> 
                 </Row>
                 <Row className="center1" style={{paddingTop:"2rem"}}>
                     <a className="btn btn-5" href="https://ucsd.zoom.us/meeting/register/tJUpdO2hpjojH9Q_VcfON0o59dvh4Cc75pdX?fbclid=IwAR0bl5awWAQGBqsoXQhQK54LYDPtngt0B4Yuon57v4danwgWVgoSqHtiG4Y" target="_blank">Pre-Register</a>
