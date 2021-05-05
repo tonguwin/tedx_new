@@ -1,22 +1,18 @@
 [
     {
         "id": 1,
-        "name": "Braeanne Oribello",
-        "image": "braeanne",
+        "name": "Monica Van",
+        "image": "mon",
         "width": "350px",
         "height": "373px",
         "role": "Creative Director",
         "major": "Design and Interaction",
-        "bio": "When Braeanne wanted to connect with more designers, she assembled a ragtag group of friends to create HUE, a place where creatives from all disciplines could build community and learn from one another! She loves",
-        "bio2":  " snowboarding",
-        "bio3": ", but also hopes to one day",
-        "bio4": " redesign electronics",
-        "bio5": " to be more sustainable and accessible to those in developing countries!",
-        "color1": "#8194dd",
-        "color2": "#9aa9e3",
-        "color3": "#b3beea",
-        "linkedin": "https://www.linkedin.com/in/braeanneori/",
-        "instagram": "https://www.instagram.com/braeanneori/"
+        "bio": "Hi hi! My name's Monica, and I'm one of the Co-Directors for the TEDxUCSD 2020-21 Team. If you ask me what that's like, I'd say it's like being the rubber-foam flooring on an active playground. (Support, support, support). My members each have within them the capacity to contribute amazing things, and it's within my role to craft a playground on which they can feel free to stumble when growing themselves. (Baby corgi steps)!!!",
+        "color1": "white",
+        "color2": "white",
+        "color3": "white",
+        "linkedin": "https://www.instagram.com/monicamonvan/",
+        "instagram": "https://www.linkedin.com/in/monica-van-069b48143/"
     },
     {
         "id": 2,

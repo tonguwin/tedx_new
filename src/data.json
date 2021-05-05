@@ -1,26 +1,15 @@
 
 [
-    {
-        "id": 0,
-        "name": "HUE COLLECTIVE",
-        "image": "hue",
-        "role": "2020",
-        "instagram": "https://www.instagram.com/hue.collective/",
-        "linkedin": "https://www.linkedin.com/company/huecollective/"
-    },
+    
     {
         "id": 1,
-        "name": "Todd Oribello",
-        "image": "braeanne",
+        "name": "Monica Van",
+        "image": "monica",
         "width": "350px",
         "height": "373px",
-        "role": "Creative Director",
+        "role": "Co-Director",
         "major": "Design and Interaction",
-        "bio": "When Braeanne wanted to connect with more designers, she assembled a ragtag group of friends to create HUE, a place where creatives from all disciplines could build community and learn from one another! She loves",
-        "bio2":  " snowboarding",
-        "bio3": ", but also hopes to one day",
-        "bio4": " redesign electronics",
-        "bio5": " to be more sustainable and accessible to those in developing countries!",
+        
         "color1": "#8194dd",
         "color2": "#9aa9e3",
         "color3": "#b3beea",

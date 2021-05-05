@@ -310,8 +310,8 @@ class About extends Component {
                             </Card>
                             </Col>
                         ))}
-                    </Row> *}
-
+                    </Row>
+                        */}
                    {/* <div style={{paddingTop:"4rem", paddingBottom:"8rem"}}>
                    <img src={pageBreak} style={{maxWidth:'100%'}}/>
                         </div> */}
