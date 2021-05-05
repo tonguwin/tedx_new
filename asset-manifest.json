@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.f12316c1.chunk.css",
-    "main.js": "/static/js/main.1fcdcccb.chunk.js",
-    "main.js.map": "/static/js/main.1fcdcccb.chunk.js.map",
+    "main.css": "/static/css/main.197c67c8.chunk.css",
+    "main.js": "/static/js/main.bcf5486e.chunk.js",
+    "main.js.map": "/static/js/main.bcf5486e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.152180d2.js",
     "runtime-main.js.map": "/static/js/runtime-main.152180d2.js.map",
     "static/css/2.ff645aaf.chunk.css": "/static/css/2.ff645aaf.chunk.css",
-    "static/js/2.281a3c15.chunk.js": "/static/js/2.281a3c15.chunk.js",
-    "static/js/2.281a3c15.chunk.js.map": "/static/js/2.281a3c15.chunk.js.map",
+    "static/js/2.d640f677.chunk.js": "/static/js/2.d640f677.chunk.js",
+    "static/js/2.d640f677.chunk.js.map": "/static/js/2.d640f677.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0057873c3397fda836270283a72ab267.js": "/precache-manifest.0057873c3397fda836270283a72ab267.js",
+    "precache-manifest.dd4ab5a1be6cb21c57c0e4c60fa75ea3.js": "/precache-manifest.dd4ab5a1be6cb21c57c0e4c60fa75ea3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ff645aaf.chunk.css.map": "/static/css/2.ff645aaf.chunk.css.map",
-    "static/css/main.f12316c1.chunk.css.map": "/static/css/main.f12316c1.chunk.css.map",
-    "static/js/2.281a3c15.chunk.js.LICENSE.txt": "/static/js/2.281a3c15.chunk.js.LICENSE.txt",
+    "static/css/main.197c67c8.chunk.css.map": "/static/css/main.197c67c8.chunk.css.map",
+    "static/js/2.d640f677.chunk.js.LICENSE.txt": "/static/js/2.d640f677.chunk.js.LICENSE.txt",
     "static/media/ACM.svg": "/static/media/ACM.4de099a6.svg",
     "static/media/ALICE LEE.png": "/static/media/ALICE LEE.5aa90359.png",
     "static/media/ALICIA TAM.png": "/static/media/ALICIA TAM.d2238214.png",
@@ -75,6 +75,8 @@
     "static/media/carsticker.png": "/static/media/carsticker.03ea816a.png",
     "static/media/citysticker.png": "/static/media/citysticker.47202b55.png",
     "static/media/cometsticker.png": "/static/media/cometsticker.7009af97.png",
+    "static/media/constell.png": "/static/media/constell.f3eb5029.png",
+    "static/media/constellate.png": "/static/media/constellate.bcaf2b06.png",
     "static/media/constellate_title.png": "/static/media/constellate_title.4ce884de.png",
     "static/media/contact.jpg": "/static/media/contact.e8b5ef98.jpg",
     "static/media/cropped-eric.jpeg": "/static/media/cropped-eric.680f1a86.jpeg",
@@ -121,6 +123,7 @@
     "static/media/lwin2.png": "/static/media/lwin2.e3fec235.png",
     "static/media/lwin3.png": "/static/media/lwin3.5da2c13b.png",
     "static/media/mayuko.png": "/static/media/mayuko.a215dd78.png",
+    "static/media/mon.png": "/static/media/mon.f014ff80.png",
     "static/media/morepeople.png": "/static/media/morepeople.18687ba8.png",
     "static/media/mylinh.png": "/static/media/mylinh.e6045a12.png",
     "static/media/mylinh2.png": "/static/media/mylinh2.2c480092.png",
@@ -188,8 +191,8 @@
   "entrypoints": [
     "static/js/runtime-main.152180d2.js",
     "static/css/2.ff645aaf.chunk.css",
-    "static/js/2.281a3c15.chunk.js",
-    "static/css/main.f12316c1.chunk.css",
-    "static/js/main.1fcdcccb.chunk.js"
+    "static/js/2.d640f677.chunk.js",
+    "static/css/main.197c67c8.chunk.css",
+    "static/js/main.bcf5486e.chunk.js"
   ]
 }
