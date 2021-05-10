@@ -103,3 +103,31 @@
     color: #fcfcfc !important;
     letter-spacing: 0.04em !important;
   }
+
+.meet2 {
+    font-family: HelveticaBold !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 200%;
+    letter-spacing: 0.04em !important;
+    color: #f9f9f9 !important;
+    text-align: left;
+  }
+
+.text3 {
+    font-family: Karla !important;
+    font-size: 87%;
+    line-height: 150% !important;
+    color: #fcfcfc !important;
+    letter-spacing: 0.04em !important;
+  }
+
+.meet3 {
+    font-family: HelveticaBold !important;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 120%;
+    letter-spacing: 0.04em !important;
+    color: #e0e0e0 !important;
+    text-align: left;
+  }
