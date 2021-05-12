@@ -17,6 +17,8 @@ import katherine from '../images/katherine_new.jpg';
 // ALTHOUGH THIS PAGE IS CALLED CONTACT -- It's Sponsors
 
 
+// C<span style={{color: '#FF2B06'}}> o</span>nst<span style={{color: '#FF2B06'}}>e</span>ll<span style={{color: '#FF2B06'}}> a</span>t<span style={{color: '#FF2B06'}}>e</span>
+
 class Constellate extends Component {
     constructor(props) {
         super(props);
@@ -28,7 +30,7 @@ class Constellate extends Component {
             <Container>
                 <Row>
                     <p className="events">
-                        C<span style={{color: '#FF2B06'}}> o</span>nst<span style={{color: '#FF2B06'}}>e</span>ll<span style={{color: '#FF2B06'}}> a</span>t<span style={{color: '#FF2B06'}}>w</span>
+                        Constellate
                     </p>
                 </Row>
                 <Row>
