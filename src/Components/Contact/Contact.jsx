@@ -77,7 +77,9 @@ class Contact extends Component {
                         </p>
                     </Row>
                     <Row style={{paddingTop:"4rem"}}>
-                        <img src={Marshall} className="image1 zoom1"/>
+                        <a href="https://marshall.ucsd.edu/" target="_blank">
+                            <img src={Marshall} className="image1 zoom1"/>
+                        </a>
                     </Row>
                     
                 </Container>
