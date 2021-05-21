@@ -14,6 +14,7 @@ import Lib from './Images/library.png'
 import Rady from './Images/rady1.png'
 import Research from './Images/research1.png'
 import Andy from './Images/andy.jpeg'
+import Marshall from './Images/marshall.png'
 
 // ALTHOUGH THIS PAGE IS CALLED CONTACT -- It's Sponsors
 
@@ -62,11 +63,26 @@ class Contact extends Component {
                             </p>
                         </Col>
                     </Row>
-
+     
                    
                 </Container>
 
-                <Row style={{paddingTop:"2rem"}}>
+                <Container>
+                <Row style={{justifyContent:"center"}}>
+                        <p className="meet5">
+                            Thurgood Marshall College 
+                        </p>
+                        <p className="meet4">
+                            2021 | Gold Sponsor
+                        </p>
+                    </Row>
+                    <Row style={{paddingTop:"4rem"}}>
+                        <img src={Marshall} className="image1 zoom1"/>
+                    </Row>
+                    
+                </Container>
+                
+                <Row style={{paddingTop:"1rem"}}>
                     <p className="meet">
                         Past Sponsors
                     </p>

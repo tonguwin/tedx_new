@@ -94,6 +94,10 @@
     height: auto;
     width: auto;
 }
+.image1 {
+  height: auto;
+  width: auto;
+}
 
 
 .text2 {
@@ -130,4 +134,45 @@
     letter-spacing: 0.04em !important;
     color: #e0e0e0 !important;
     text-align: left;
+  }
+
+
+  .meet4 {
+    font-family: Karla !important;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 120%;
+    letter-spacing: 0.04em !important;
+    color: #e0e0e0 !important;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    right:190px;
+  }
+
+  .meet5 {
+    font-family: HelveticaBold !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 140%;
+    letter-spacing: 0.04em !important;
+    color: #f9f9f9 !important;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    left: 155px;
+  }
+
+
+  .zoom1 {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+    height: 33%;
+    width: 33%;
+  }
+  
+  .zoom1:hover {
+    transform: scale(.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
