@@ -76,9 +76,9 @@ class Contact extends Component {
                             2021 | Gold Sponsor
                         </p>
                     </Row>
-                    <Row style={{paddingTop:"4rem"}}>
-                        <a href="https://marshall.ucsd.edu/" target="_blank">
-                            <img src={Marshall} className="image1 zoom1"/>
+                    <Row style={{paddingTop:"4rem"}} >
+                        <a href="https://marshall.ucsd.edu/" target="_blank" className="image1 zoom1">
+                            <img src={Marshall} />
                         </a>
                     </Row>
                     
@@ -100,7 +100,7 @@ class Contact extends Component {
                         <Col style={{paddingLeft:"5rem"}}>
                             <a href="https://rady.ucsd.edu/" target="_blank">
                                 <img src={Rady} className="image zoom" />
-                                </a>
+                            </a>
                         </Col>
                     </Row>
 

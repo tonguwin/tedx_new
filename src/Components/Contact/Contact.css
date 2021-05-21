@@ -169,8 +169,8 @@
   .zoom1 {
     transition: transform .2s; /* Animation */
     margin: 0 auto;
-    height: 33%;
-    width: 33%;
+    height: 23%;
+    width: 23%;
   }
   
   .zoom1:hover {
